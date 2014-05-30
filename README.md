@@ -1,4 +1,4 @@
-everestmedia.github.io
+everestmg.github.io
 ======================
 
 Everest Media Group Official Site
