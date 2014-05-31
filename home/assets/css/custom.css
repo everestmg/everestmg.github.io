@@ -2,3 +2,12 @@
 	margin: 0px !important;
 	font-size: 40px !important;
 }
+
+.center{
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.normalize{
+	display: block;
+}
