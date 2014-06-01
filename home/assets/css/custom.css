@@ -11,3 +11,7 @@
 .normalize{
 	display: block;
 }
+
+#mfsplayer{
+	margin: 100px auto;
+}
