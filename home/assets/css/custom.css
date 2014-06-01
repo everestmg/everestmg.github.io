@@ -15,3 +15,12 @@
 #mfsplayer{
 	margin: 100px auto;
 }
+
+body#welcome_index .section-dark{
+	background: transparent;
+	background: url("../img/bg.png");
+	background-size: 30px 30px;
+	position: relative;
+	display: block;
+
+}
