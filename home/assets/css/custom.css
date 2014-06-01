@@ -17,7 +17,7 @@
 	border: 5px solid #28292a;
 }
 
-.hl1:hover{
+.hl1:hover .fa{
 	color: #00a8db;
 	font-size: 21em !important;
 	-webkit-transition: all 0.2s ease-in-out 0;
@@ -26,14 +26,14 @@
 	transition: all 0.2s ease-in-out 0;
 }
 
-.hl1, .hl2{
+.fa{
 	-webkit-transition: all 0.2s ease-in-out 0;
 	-moz-transition: all 0.2s ease-in-out 0;
 	-o-transition: all 0.2s ease-in-out 0;
 	transition: all 0.2s ease-in-out 0;
 }
 
-.hl2:hover{
+.hl2:hover .fa{
 	color: #80e8cc;
 	font-size: 21em !important;
 	-webkit-transition: all 0.2s ease-in-out 0.2s;
