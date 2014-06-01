@@ -85,13 +85,13 @@ margin-left: -485px;
 color: #fff;
 text-align: center;
 }
-h3 {
+.twitter-customers h3 {
 color: #38b6cd;
 font-size: 34px;
 line-height: 30px;
 margin-bottom: 5px;
 }
-h1, h2, h3 {
+.twitter-customers h1, .twitter-customers h2, .twitter-customers h3 {
 font-family: "Montserrat", "Helvetica", "Arial";
 font-weight: normal;
 }
