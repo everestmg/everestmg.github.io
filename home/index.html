@@ -2,8 +2,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-3.newrelic.com","errorBeacon":"bam.nr-data.net","licenseKey":"9e61487150","applicationID":"1131693","transactionName":"eloNEBZfXQoEQBpEVFVWDAkBH1gIBVdN","queueTime":22,"applicationTime":14,"ttGuid":"","agentToken":null,"agent":"js-agent.newrelic.com/nr-411.min.js"}</script>
-<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o?o:n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({D5DuLP:[function(t,n){function e(t,n){var e=r[t];return e?e.apply(this,n):(o[t]||(o[t]=[]),void o[t].push(n))}var r={},o={};n.exports=e,e.queues=o,e.handlers=r},{}],handle:[function(t,n){n.exports=t("D5DuLP")},{}],G9z0Bl:[function(t,n){function e(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&p&&p.body){l.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",i("mark",["onload",a()]);var n=p.createElement("script");n.src=l.proto+t.agent,p.body.appendChild(n)}}function r(){"complete"===p.readyState&&o()}function o(){i("mark",["domContent",a()])}function a(){return(new Date).getTime()}var i=t("handle"),u=window,p=u.document,s="addEventListener",c="attachEvent",f=(""+location).split("?")[0],l=n.exports={offset:a(),origin:f,features:[]};p[s]?(p[s]("DOMContentLoaded",o,!1),u[s]("load",e,!1)):(p[c]("onreadystatechange",r),u[c]("onload",e)),i("mark",["firstbyte",a()])},{handle:"D5DuLP"}],loader:[function(t,n){n.exports=t("G9z0Bl")},{}]},{},["G9z0Bl"]);</script>
   <title>EverestMG</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,65 +17,18 @@
 
 
 
+
+
     <script crossorigin="anonymous" src="assets/js/errortank.js" type="text/javascript"></script>
-
-  <script type="text/javascript">
-//<![CDATA[
-    __d = 'null';
-    __u = 'null';
-    __i = '129.100.254.156';
-
-//]]>
-</script>
-
       <script crossorigin="anonymous" src="assets/js/external.js" type="text/javascript"></script>
 
-
-  <script type="text/javascript">
-//<![CDATA[
-
-    try {
-      __env = 0;
-      if (window.PAGE_RUNNER) $(document).ready(PAGE_RUNNER.init);
-      
-    } catch (e) {
-      Err.notify(e, 'welcome', 'index')
-    }
-
-//]]>
 </script>
   <script type="text/javascript" src="assets/js/wyv1pch.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-    <script type="text/javascript">
-    (function(c,a){var b,d,h,e;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src=("https:"===c.location.protocol?"https:":"http:")+'//api.mixpanel.com/site_media/js/api/mixpanel.2.js';d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d);a._i=[];a.init=function(b,c,f){function d(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var g=a;"undefined"!==typeof f?g= a[f]=[]:f="mixpanel";g.people=g.people||[];h="disable track track_pageview track_links track_forms register register_once unregister identify name_tag set_config people.set people.increment".split(" ");for(e=0;e<h.length;e++)d(g,h[e]);a._i.push([b,c,f])};a.__SV=1.1;window.mixpanel=a})(document,window.mixpanel||[]);
-    mixpanel.init('ea5836078783528ba60ecff8a7fb0b1b');
-  </script>
-
-    <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-28379784-1']);
-    _gaq.push(['_setDomainName', 'easel.io']);
-    _gaq.push(['_trackPageview']);
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-
 
   <meta content="authenticity_token" name="csrf-param" />
 <meta content="NiOMYMyNjeQZ6pgCsQpSyL5ntcCH+tHdB1OgeDpRuu4=" name="csrf-token" />
 </head>
 <body class="external enable-fixed-header" id="welcome_index" data-controller="welcome" data-action="index">
-    <script type="text/javascript">
-//<![CDATA[
-    mixpanel.register({ source: 'public' });
-    mixpanel.track('Registration:Viewed', { source: 'welcome' });
-
-//]]>
-</script>
   <div class="navbar navbar-fixed-top">
   <div class="navbar-inner clearfix">
     <div class="container">
@@ -176,19 +127,20 @@
   </div>
 
   <div id="testimonials" class="section-dark row-fluid">
-    <div class="container">
-      <a id="store"></a>
-      <h2 class="section-heading"><span>Beat Store</span></h2>
+    <div class="blackbox">
+      <div class="container">
+        <a id="store"></a>
+        <h2 class="section-heading"><span>Beat Store</span></h2>
 
-      <div class="center">
-        <object class="center normalize" id="mfsplayer" type='application/x-shockwave-flash' height='373' width='705' data='http://www.myflashstore.net/widgets/flash/istore.swf?user_id=50995'  allowscriptaccess='always'>
-        <param name='movie' value='http://www.myflashstore.net/widgets/flash/istore.swf?user_id=50995' />
-        <param name='menu' value='false' />
-        <param name='wmode' value='transparent' />
-        <param name='allowscriptaccess' value='always' />
-        <param name='flashvars' value='pltrans=100&autoplay=0&' />
-        </object>
-      </div>
+        <div class="center">
+          <object class="center normalize" id="mfsplayer" type='application/x-shockwave-flash' height='373' width='705' data='http://www.myflashstore.net/widgets/flash/istore.swf?user_id=50995'  allowscriptaccess='always'>
+          <param name='movie' value='http://www.myflashstore.net/widgets/flash/istore.swf?user_id=50995' />
+          <param name='menu' value='false' />
+          <param name='wmode' value='transparent' />
+          <param name='allowscriptaccess' value='always' />
+          <param name='flashvars' value='pltrans=100&autoplay=0&' />
+          </object>
+        </div>
 
 
       <!--<div id="testimonial-carousel" class="carousel slide">
@@ -271,8 +223,149 @@
         </ol>
 
       </div>-->
-
+      </div>
     </div>
+  </div>
+
+  <div class="section-dark">
+        <a id="plans"></a>
+    <div id="pricing" class="section-dark container">
+      <a id="plans"></a>
+      <div class="row">
+        <div class="span12">
+          <h2 class="section-heading"><span>Plans &amp; Pricing</span></h2>
+        </div>
+      </div>
+      <div class="row">
+        <span class="span12">
+
+          <div class="plan-container">
+
+            <div class="individual personal plan">
+              <h2>Basic Lease</h2>
+              <div class="price">
+                <div class="amount-container">
+                  <span class="currency">$</span>
+                  <span class="amount">25</span>
+                </div>
+                <!--<div class="period">Month</div>-->
+              </div>
+              <ul>
+                <li>
+                  <span class="amount">Unlimited</span>
+                  <span class="feature">Documents</span>
+                </li>
+              </ul>
+              <a class="btn signup hidden-phone" rel="5" href="#signup" data-toggle="modal">Buy Now</a>
+            </div>
+
+            <div class="individual freelancer plan">
+              <h2>Commercial Lease</h2>
+              <div class="price">
+                <div class="amount-container">
+                  <span class="currency">$</span>
+                  <span class="amount">50</span>
+                </div>
+                <div class="period">GET2FREE</div>
+              </div>
+              <ul>
+                <li>
+                  <span class="amount">Unlimited</span>
+                  <span class="feature">Documents</span>
+                </li>
+                <li>
+                  <span class="amount">Unlimited</span>
+                  <span class="feature">Reviewers</span>
+                </li>
+                <li>
+                  <span class="amount">Premium</span>
+                  <span class="feature">Support</span>
+                </li>
+              </ul>
+              <a class="btn signup hidden-phone" rel="6" href="#signup" data-toggle="modal">Buy Now</a>
+            </div>
+
+          </div>
+
+          <div class="plan-separator"></div>
+
+          <div class="plan-container">
+
+            <div class="team small-team plan">
+              <h2>WAV Trackout</h2>
+              <div class="price">
+                <div class="amount-container">
+                  <span class="currency">$</span>
+                  <span class="amount">100</span>
+                </div>
+                <div class="period">GET2FREE</div>
+              </div>
+              <ul>
+                <li>
+                  <span class="amount">Unlimited</span>
+                  <span class="feature">Documents</span>
+                </li>
+                <li>
+                  <span class="amount">Premium</span>
+                  <span class="feature">Support</span>
+                </li>
+                <li>
+                  <span class="amount">2</span>
+                  <span class="feature">Team Members</span>
+                </li>
+              </ul>
+              <a class="btn signup hidden-phone" rel="8" href="#signup" data-toggle="modal">Buy Now</a>
+            </div>
+
+            <div class="team medium-team plan">
+              <h2>Exclusive</h2>
+              <div class="price">
+                <div class="amount-container">
+                  <!--<span class="currency"></span>-->
+                  <span class="amount rolla"><i class="fa fa-envelope"></i></span>
+                </div>
+                <!--<div class="period">Month</div>-->
+              </div>
+              <ul>
+                <li>
+                  <span class="amount">Unlimited</span>
+                  <span class="feature">Documents</span>
+                </li>
+                <li>
+                  <span class="amount">Premium</span>
+                  <span class="feature">Support</span>
+                </li>
+                <li>
+                  <span class="amount">5</span>
+                  <span class="feature">Team Members</span>
+                </li>
+              </ul>
+              <a class="btn signup hidden-phone" rel="11" href="#signup" data-toggle="modal">Inquire</a>
+            </div>
+
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div id="features" class="section-light container">
+    <a id="tour"></a>
+    <div class="row">
+      <div class="span12">
+        <h2 class="section-heading"><span>Services</span></h2>
+      </div>
+    </div>
+
+    <div class="row">
+<div class="span5"><div class="service-box extra"><figure class="icon"><img src="http://livedemo00.template-help.com/wordpress_49248/wp-content/themes/theme49248/images/icon1.png" alt=""></figure><div class="service-box_body"><h2 class="title">Mauris fermeum dictum magna</h2><div class="service-box_txt">Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel curseifend elit. Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis. Integer rutrum ante eu lacuestibul.</div></div></div> 
+<div class="service-box extra"><figure class="icon"><img src="http://livedemo00.template-help.com/wordpress_49248/wp-content/themes/theme49248/images/icon2.png" alt=""></figure><div class="service-box_body"><h2 class="title">Mauris fermeum dictum magna</h2><div class="service-box_txt">Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel curseifend elit. Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis. Integer rutrum ante eu lacuestibul.</div></div></div> 
+<div class="service-box extra_1"><figure class="icon"><img src="http://livedemo00.template-help.com/wordpress_49248/wp-content/themes/theme49248/images/icon3.png" alt=""></figure><div class="service-box_body"><h2 class="title">Mauris fermeum dictum magna</h2><div class="service-box_txt">Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel curseifend elit. Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis. Integer rutrum ante eu lacuestibul.</div></div></div> </div>
+<div class="span5"><div class="service-box "><figure class="icon"><img src="http://livedemo00.template-help.com/wordpress_49248/wp-content/themes/theme49248/images/icon4.png" alt=""></figure><div class="service-box_body"><h2 class="title">Mauris fermeum dictum magna</h2><div class="service-box_txt">Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel curseifend elit. Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis. Integer rutrum ante eu lacuestibul.</div></div></div> 
+<div class="service-box "><figure class="icon"><img src="http://livedemo00.template-help.com/wordpress_49248/wp-content/themes/theme49248/images/icon5.png" alt=""></figure><div class="service-box_body"><h2 class="title">Mauris fermeum dictum magna</h2><div class="service-box_txt">Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel curseifend elit. Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis. Integer rutrum ante eu lacuestibul.</div></div></div> 
+<div class="service-box extra_1"><figure class="icon"><img src="http://livedemo00.template-help.com/wordpress_49248/wp-content/themes/theme49248/images/icon6.png" alt=""></figure><div class="service-box_body"><h2 class="title">Mauris fermeum dictum magna</h2><div class="service-box_txt">Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel curseifend elit. Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis. Integer rutrum ante eu lacuestibul.</div></div></div> </div>
+</div>
+ 
   </div>
 
   <div class="twitter-customers">
@@ -425,7 +518,31 @@
         <h2 class="section-heading"><span>About</span></h2>
       </div>
     </div>
-    <div class="import-from-web row hl1">
+
+    <div class="row">
+<div class="span4"><h2><strong>shortly</strong> about me</h2>
+<h5>Mescuml dia sed commete ipsum.</h5>
+<p>Nam justo ante, hendrerit vitae aliquet condimentum, commodo eu mi. Etiam sol licitudin odio at vehicula venenatis.</p>
+<p>Nam justo ante, hendrerit vitae aliquet condimentum, com modo eu mi. Etiam sol licitudin odio at vehicula venenatis.<br/>
+Aenean ac pulvinar nisi. Aliquam ut dui dolor.</p>
+<p>Nam justo ante, hendrerit vitae aliquet condimentum, com modo eu mi. Etiam sol licitudin odio at vehicula venenatis. Aenean ac pulvinar nisi.  Donec sed posuere velit.</p></div>
+<div class="span4"><h2><strong>latest</strong> news</h2>
+<p>Nam justo ante, hendrerit vitae aliquet condimentum, commodo eu mi. Etiam sol licitudin odio at vehicula venenatis.</p>
+<p>Nam justo ante, hendrerit vitae aliquet condimentum, com modo eu mi. Etiam sol licitudin odio at vehicula venenatis.<br/>
+Aenean ac pulvinar nisi. Aliquam ut dui dolor.</p>
+<p>Nam justo ante, hendrerit vitae aliquet condimentum, com modo eu mi. Etiam sol licitudin odio at vehicula venenatis. Aenean ac pulvinar nisi.  Donec sed posuere velit.</p></div>
+<div class="span4"><h2><strong>AREAS OF</strong> PRACTICE</h2>
+<div class="list styled custom-list">
+<p>Nam justo ante, hendrerit vitae aliquet condimentum, commodo eu mi. Etiam sol licitudin odio at vehicula venenatis.</p>
+<p>Nam justo ante, hendrerit vitae aliquet condimentum, com modo eu mi. Etiam sol licitudin odio at vehicula venenatis.<br/>
+Aenean ac pulvinar nisi. Aliquam ut dui dolor.</p>
+<p>Nam justo ante, hendrerit vitae aliquet condimentum, com modo eu mi. Etiam sol licitudin odio at vehicula venenatis. Aenean ac pulvinar nisi.  Donec sed posuere velit.</p>
+</div></div>
+</div> 
+</div>
+    
+
+    <!--<div class="import-from-web row hl1">
       <div class="description span6 offset1">
         <h2>Mission</h2>
         <p>
@@ -435,18 +552,18 @@
         </p>
       </div>
       <div class="span4">
-        <div> <!--class="bordered designers"-->
-          <i class="fa fa-globe hl1" style="font-size:10em;"></i><!--
-          <img alt="Import_button" height="400" src="https://d2xe2j4d6y293d.cloudfront.net/assets/static/import_button-b9c94613db731be007df5bb9ae6c8eb3.png" width="400" />-->
+        <div class="bordered designers">
+          <i class="fa fa-globe hl1" style="font-size:10em;"></i>
+          <img alt="Import_button" height="400" src="https://d2xe2j4d6y293d.cloudfront.net/assets/static/import_button-b9c94613db731be007df5bb9ae6c8eb3.png" width="400" />
         </div>
       </div>
     </div>
     <div class="clickable-prototypes row hl2">
       <div class="span4 offset1">
         <i class="fa fa-headphones" style="font-size:10em;"></i>
-        <!--<div class="bordered product-managers">
+        <div class="bordered product-managers">
           <img alt="Clickable_prototype" height="400" src="https://d2xe2j4d6y293d.cloudfront.net/assets/static/clickable_prototype-9b7a626589e6b0351239c3335b8d1bd2.png" width="400" />
-        </div>-->
+        </div>
       </div>
       <div class="description span6">
         <h2>Services</h2>
@@ -462,7 +579,7 @@
       <div class="commenting span4">
         <div class="bordered product-managers" style="height:200px;width:200px;">
           <i style="font-size:10em;margin-top:35px;" class="fa fa-users"></i>
-          <!--<img alt="Comments" height="200" src="https://d2xe2j4d6y293d.cloudfront.net/assets/static/comments-4c993f71c44757512824209c0eb1e5a5.png" width="200" />-->
+         
         </div>
         <h2>Partner</h2>
         <p>
@@ -497,7 +614,7 @@
     </div>
     <div class="export-to-html row">
       <div class="span4 offset1">
-        <div class="bordered developers">
+       <div class="bordered developers">
           <img alt="Export" height="300" src="https://d2xe2j4d6y293d.cloudfront.net/assets/static/export-f9548f22d4e58fb332da74ab2b1aacac.png" width="300" />
         </div>
       </div>
@@ -511,129 +628,9 @@
         </p>
       </div>
     </div>
-  </div>
+  </div>-->
 
-  <div class="section-dark">
-        <a id="plans"></a>
-    <div id="pricing" class="section-dark container">
-      <a id="plans"></a>
-      <div class="row">
-        <div class="span12">
-          <h2 class="section-heading"><span>Plans &amp; Pricing</span></h2>
-        </div>
-      </div>
-      <div class="row">
-        <span class="span12">
-
-          <div class="plan-container">
-
-            <div class="individual personal plan">
-              <h2>Basic Lease</h2>
-              <div class="price">
-                <div class="amount-container">
-                  <span class="currency">$</span>
-                  <span class="amount">25</span>
-                </div>
-                <!--<div class="period">Month</div>-->
-              </div>
-              <ul>
-                <li>
-                  <span class="amount">Unlimited</span>
-                  <span class="feature">Documents</span>
-                </li>
-              </ul>
-              <a class="btn signup hidden-phone" rel="5" href="#signup" data-toggle="modal">Buy Now</a>
-            </div>
-
-            <div class="individual freelancer plan">
-              <h2>Commercial Lease</h2>
-              <div class="price">
-                <div class="amount-container">
-                  <span class="currency">$</span>
-                  <span class="amount">50</span>
-                </div>
-                <div class="period">GET2FREE</div>
-              </div>
-              <ul>
-                <li>
-                  <span class="amount">Unlimited</span>
-                  <span class="feature">Documents</span>
-                </li>
-                <li>
-                  <span class="amount">Unlimited</span>
-                  <span class="feature">Reviewers</span>
-                </li>
-                <li>
-                  <span class="amount">Premium</span>
-                  <span class="feature">Support</span>
-                </li>
-              </ul>
-              <a class="btn signup hidden-phone" rel="6" href="#signup" data-toggle="modal">Buy Now</a>
-            </div>
-
-          </div>
-
-          <div class="plan-separator"></div>
-
-          <div class="plan-container">
-
-            <div class="team small-team plan">
-              <h2>WAV Trackout</h2>
-              <div class="price">
-                <div class="amount-container">
-                  <span class="currency">$</span>
-                  <span class="amount">100</span>
-                </div>
-                <div class="period">GET2FREE</div>
-              </div>
-              <ul>
-                <li>
-                  <span class="amount">Unlimited</span>
-                  <span class="feature">Documents</span>
-                </li>
-                <li>
-                  <span class="amount">Premium</span>
-                  <span class="feature">Support</span>
-                </li>
-                <li>
-                  <span class="amount">2</span>
-                  <span class="feature">Team Members</span>
-                </li>
-              </ul>
-              <a class="btn signup hidden-phone" rel="8" href="#signup" data-toggle="modal">Buy Now</a>
-            </div>
-
-            <div class="team medium-team plan">
-              <h2>Exclusive</h2>
-              <div class="price">
-                <div class="amount-container">
-                  <!--<span class="currency"></span>-->
-                  <span class="amount rolla"><i class="fa fa-envelope"></i></span>
-                </div>
-                <!--<div class="period">Month</div>-->
-              </div>
-              <ul>
-                <li>
-                  <span class="amount">Unlimited</span>
-                  <span class="feature">Documents</span>
-                </li>
-                <li>
-                  <span class="amount">Premium</span>
-                  <span class="feature">Support</span>
-                </li>
-                <li>
-                  <span class="amount">5</span>
-                  <span class="feature">Team Members</span>
-                </li>
-              </ul>
-              <a class="btn signup hidden-phone" rel="11" href="#signup" data-toggle="modal">Inquire</a>
-            </div>
-
-          </div>
-        </span>
-      </div>
-    </div>
-  </div>
+  
 
   <div id="get-started" class="section-light">
     <div class="container">

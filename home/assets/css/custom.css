@@ -12,6 +12,15 @@
 @import url("../font-awesome-4.1.0/css/font-awesome.css");
 
 
+#testimonials{
+	background-image: url(../img/city.jpg) !important;
+}
+
+.blackbox{
+	height: 100%;
+	width:100%;
+	background-color: rgba(254,254,254,0.9);
+}
 .rolla{
 	margin: 0px !important;
 	font-size: 40px !important;
@@ -27,8 +36,9 @@
 }
 
 #mfsplayer{
-	margin: 100px auto;
-	border: 5px solid #28292a;
+	margin: 50px auto;
+	border: 2px solid rgba(223,223,223,1);
+	padding: 14px;
 }
 
 .hl1:hover .fa{
