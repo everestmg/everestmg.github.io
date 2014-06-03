@@ -11,6 +11,26 @@
 
 @import url("../font-awesome-4.1.0/css/font-awesome.css");
 
+.cont{
+	margin: 0 50px;
+}
+
+img{
+	border-radius: 0px !important;
+}
+
+.repo{
+	top:15px !important;
+	left: 12px !important;
+}
+
+#features{
+	background-color: 
+}
+
+.emailico{
+	padding-top: 25px !important;
+}
 
 #testimonials{
 	background-image: url(../img/city.jpg) !important;
@@ -36,9 +56,15 @@
 }
 
 #mfsplayer{
+	margin: 0px auto;
+}
+
+#playerbox{
 	margin: 50px auto;
 	border: 2px solid rgba(223,223,223,1);
 	padding: 14px;
+	width: 705px;
+	height: 373px
 }
 
 .hl1:hover .fa{
@@ -240,7 +266,17 @@ width: 100%;
 }
 
 @media(max-width: 700px){
-	#mfsplayer{
-		display: none;
-	}
+#playerbox{
+	display: none;
+}
+
+.mobpad{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+}
+
+.bbfont *{
+	color: #E4EAEE;
 }
