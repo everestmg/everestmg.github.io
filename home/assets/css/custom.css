@@ -11,6 +11,10 @@
 
 @import url("../font-awesome-4.1.0/css/font-awesome.css");
 
+.dropdown-menu{
+	right: 150px !important;
+}
+
 .cont{
 	margin: 0 50px;
 }
