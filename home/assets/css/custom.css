@@ -11,6 +11,10 @@
 
 /*@import url("../font-awesome-4.1.0/css/font-awesome.css");*/
 
+.tweet h3, .tweet h4 {
+margin-bottom: 0px !important;
+}
+
 .footer{
 	min-height: 65px;
 	height: auto !important;
@@ -272,6 +276,7 @@ line-height: 35px;
 
 .twitter-customers h3, .twitter-customers h4 {
 text-align: left!important;
+margin-bottom: 0px !important;
 }
 
 .tweets {
@@ -286,11 +291,23 @@ width: 100%;
 }
 
 
+
 }
 
 .twitter-customers h3{
 	font-family: 'alternate-gothic-no-1-d', 'proxima-nova',Helvetica,Arial, sans-serif;
 	font-size: 4em;
+	line-height: 1;
+}
+
+
+@media(max-width: 499px){
+
+	.tweet{
+	width: 80%;
+	display: table;
+	
+}
 }
 
 @media(max-width: 700px){
@@ -303,7 +320,10 @@ width: 100%;
 	margin-right: 20px;
 }
 
+
 }
+
+
 
 .bbfont *{
 	color: #E4EAEE;
