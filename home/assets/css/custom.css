@@ -9,13 +9,23 @@
     font-style: normal;
 	}
 
-@import url("../font-awesome-4.1.0/css/font-awesome.css");
+/*@import url("../font-awesome-4.1.0/css/font-awesome.css");*/
+
+.footer{
+	min-height: 65px;
+	height: auto !important;
+}
+
+#features{
+	padding-bottom: 0px;
+}
 
 .aboutsec h2{
 	font-size: 31px !important;
 	margin-bottom: 0px !important;
 
 }
+
 
 .dropdown-menu{
 	right: 150px !important;
@@ -30,8 +40,12 @@ img{
 }
 
 .repo{
-	top:15px !important;
+	top: 12px !important;
 	left: 12px !important;
+}
+
+.icoresi{
+	font-size: 26px !important;
 }
 
 #features{
@@ -39,7 +53,7 @@ img{
 }
 
 .emailico{
-	padding-top: 25px !important;
+	padding-top: 27.5px !important;
 }
 
 #testimonials{
@@ -52,7 +66,7 @@ img{
 	background-color: rgba(254,254,254,0.9);
 }
 .rolla{
-	margin: 0px !important;
+	margin-left: -28.3px !important;
 	font-size: 40px !important;
 }
 
