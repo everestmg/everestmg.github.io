@@ -1,0 +1,10 @@
+
+.squeeze{
+	margin: 0 auto;
+	width: 1000px;
+	max-width: 100%;
+}
+
+.title{
+	font-size: 28px !important;
+}

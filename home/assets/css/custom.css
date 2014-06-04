@@ -11,6 +11,12 @@
 
 @import url("../font-awesome-4.1.0/css/font-awesome.css");
 
+.aboutsec h2{
+	font-size: 31px !important;
+	margin-bottom: 0px !important;
+
+}
+
 .dropdown-menu{
 	right: 150px !important;
 }
@@ -205,6 +211,10 @@ margin-right: 15px;
 }
 .tweet img {
 vertical-align: middle;
+}
+
+.dimgreyfix{
+	color: dimgrey !important;
 }
 
 .tweet .content {
