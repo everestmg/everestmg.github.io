@@ -14,7 +14,7 @@
 
 body.external .navbar .logo img {
 padding-top: 25px;
-width: 50px;
+width: 200px;
 padding-left: 20px;
 }
 
@@ -325,7 +325,7 @@ width: 100%;
 }
 }
 
-@media(max-width: 700px){
+@media(max-width: 780px){
 #playerbox{
 	display: none;
 }
