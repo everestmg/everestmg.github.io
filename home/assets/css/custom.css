@@ -11,6 +11,13 @@
 
 /*@import url("../font-awesome-4.1.0/css/font-awesome.css");*/
 
+
+body.external .navbar .logo img {
+padding-top: 25px;
+width: 50px;
+padding-left: 20px;
+}
+
 .tweet h3, .tweet h4 {
 margin-bottom: 0px !important;
 }
@@ -274,7 +281,7 @@ h3 {
 line-height: 35px;
 }
 
-.twitter-customers h3, .twitter-customers h4 {
+.twitter-customers h3, .tweets h4 {
 text-align: left!important;
 margin-bottom: 0px !important;
 }
