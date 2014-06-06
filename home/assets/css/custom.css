@@ -234,6 +234,7 @@ padding: 20px;
 margin-right: 20px;
 float: left;
 margin-bottom: 20px;
+min-height: 150px;
 }
 
 .tweet img {
