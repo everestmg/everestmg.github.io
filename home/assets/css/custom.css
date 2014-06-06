@@ -43,7 +43,15 @@ margin-bottom: 0px !important;
 }
 
 .cont{
-	margin: 0 50px;
+	margin: 0 auto;
+	max-width: 1170px;
+}
+
+@media(max-width: 797px){
+
+	.cont{
+		padding: 10px;
+	}
 }
 
 img{
