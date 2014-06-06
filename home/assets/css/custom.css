@@ -18,6 +18,19 @@ width: 100px;
 margin-left:0px; /*20*/
 }
 
+@media(max-width: 801px){
+
+	body.external .navbar .logo img {
+	padding-top: 15px; /*25*/
+	margin-left:10px; /*20*/
+}
+
+.logo{
+	display: block !important;
+}
+
+}
+
 .tweet h3, .tweet h4 {
 margin-bottom: 0px !important;
 }
