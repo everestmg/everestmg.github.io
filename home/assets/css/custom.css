@@ -15,7 +15,7 @@
 body.external .navbar .logo img {
 padding-top: 25px;
 width: 200px;
-padding-left:0px; /*20*/
+margin-left:-20px; /*20*/
 }
 
 .tweet h3, .tweet h4 {
