@@ -11,6 +11,10 @@
 
 /*@import url("../font-awesome-4.1.0/css/font-awesome.css");*/
 
+#nav{
+	width: 100%;
+	z-index: 1030;
+}
 
 body.external .navbar .logo img {
 padding-top: 35px; /*25*/
