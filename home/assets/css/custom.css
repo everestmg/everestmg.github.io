@@ -98,8 +98,8 @@ img{
 }
 
 .repo{
-	top: 12px !important;
-	left: 12px !important;
+	top: 14px !important;
+	left: 11px !important;
 }
 
 .icoresi{
@@ -111,7 +111,7 @@ img{
 }
 
 .emailico{
-	padding-top: 27.5px !important;
+	padding-top: 33px !important;
 }
 
 #testimonials{
@@ -127,7 +127,7 @@ img{
 	background-color: rgba(254,254,254,0.9);
 }
 .rolla{
-	margin-left: -28.3px !important;
+	margin-left: -25px !important;
 	font-size: 40px !important;
 }
 
@@ -188,7 +188,7 @@ padding-bottom: 650px;
 background: url(../img/bg-banner.gif) no-repeat bottom center #38b6cd;
 padding-top: 100px;
 margin-top: 0px;
-padding-bottom: 600px;
+padding-bottom: 450px;
 height: 200px;/*400px*/
 margin-bottom: 0px;
 position: relative;
