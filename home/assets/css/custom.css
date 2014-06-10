@@ -11,12 +11,12 @@
 
 /*@import url("../font-awesome-4.1.0/css/font-awesome.css");*/
 
-.btn-primary:hover, a.btn-primary:hover, a.btn-primary:visited{
+.btn-primary:hover, a.btn-primary:hover{
 background-color: #00a8db !important;
 }
 
 .btn-primary, a.btn-primary, a.btn-primary:visited{
-background-color: #3ab7dd !important;
+background-color: #3ab7dd;
 }
 
 
