@@ -94,6 +94,9 @@ img{
 
 #testimonials{
 	background-image: url(../img/city.jpg) !important;
+	background-attachment: fixed;
+	background-position: 0px;
+	background-repeat: repeat;
 }
 
 .blackbox{
