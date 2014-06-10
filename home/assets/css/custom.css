@@ -11,6 +11,28 @@
 
 /*@import url("../font-awesome-4.1.0/css/font-awesome.css");*/
 
+.btn-primary:hover, a.btn-primary:hover, a.btn-primary:visited{
+background-color: #00a8db !important;
+}
+
+.btn-primary, a.btn-primary, a.btn-primary:visited{
+background-color: #3ab7dd !important;
+}
+
+
+
+
+
+
+
+#home{
+	color: white;
+	margin-bottom: 25px !important;
+	margin-top: 150px !important;
+}
+
+#headline{background-image:url(../img/Slider_2.jpg) !important;}
+
 #nav{
 	width: 100%;
 	z-index: 1030;
