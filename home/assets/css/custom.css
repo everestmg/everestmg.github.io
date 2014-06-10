@@ -31,7 +31,15 @@ background-color: #3ab7dd;
 	margin-top: 150px !important;
 }
 
-#headline{background-image:url(../img/Slider_2.jpg) !important;}
+#headline{
+	background-image:url(../img/Slider_2.jpg) no-repeat !important;
+	height: auto !important;
+	background-position: center center;
+
+
+}
+
+
 
 #nav{
 	width: 100%;
@@ -381,7 +389,17 @@ width: 100%;
 
 }
 
+@media(min-width: 780px){
 
+#headline{
+	background-size: 100%;
+	min-height: 500px;
+
+}
+}
+
+
+}
 
 .bbfont *{
 	color: #E4EAEE;
