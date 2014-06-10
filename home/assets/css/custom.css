@@ -19,9 +19,9 @@ background-color: #00a8db !important;
 background-color: #3ab7dd;
 }
 
-
-
-
+.btn, a.btn, a.btn:visited{
+	text-transform: none !important;
+}
 
 
 
