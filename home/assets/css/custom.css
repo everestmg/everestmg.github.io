@@ -9,9 +9,30 @@
     font-style: normal;
 	}
 
-@media(max-width: 700px){
 
-.mobhide{
+#testimonials, .blackbox{
+	min-height: 300px;
+}
+
+
+
+@media(min-width: 700px){
+	.mobtext{
+		display: none;
+	}
+}
+
+
+.mobtext{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 100px;
+}
+
+
+
+@media(max-width: 700px){
+mobhide{
 	display: none;
 
 }
