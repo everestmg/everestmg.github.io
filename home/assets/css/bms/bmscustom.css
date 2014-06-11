@@ -113,15 +113,19 @@ margin: 2px 0px 2px 4px;
 }
 
 #top-bar .soc-ico a.twitter {
-background-image: url("../../img/twitter.svg");
+background-image: url("../../img/twitter.png");
 }
 
-#top-bar .soc-ico a.instagram {
-background-image: url("../../img/insta.svg");
+#top-bar .soc-ico a.fb {
+background-image: url("../../img/fb.png");
 }
 
-#top-bar .soc-ico a.mail {
-background-image: url("../../img/mail.svg");
+#top-bar .soc-ico a.gmail {
+background-image: url("../../img/gmail.png");
+}
+
+#top-bar .soc-ico a.yt {
+background-image: url("../../img/youtube.png");
 }
 
 .soc-ico a {

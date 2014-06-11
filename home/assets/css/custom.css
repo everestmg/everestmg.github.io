@@ -9,6 +9,11 @@
     font-style: normal;
 	}
 
+.bgfix{
+	background-size: 100%;
+
+}
+
 /*@import url("../font-awesome-4.1.0/css/font-awesome.css");*/
 
 .btn-primary:hover, a.btn-primary:hover{
