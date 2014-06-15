@@ -42,10 +42,6 @@ mobhide, .mobhide{
 
 }
 
-#headline{
-	background-attachment: fixed !important;
-}
-
 }
 
 .bgfix{
@@ -79,7 +75,6 @@ background-color: #3ab7dd;
 	background-image:url(../img/Slider_2.jpg) no-repeat !important;
 	height: auto !important;
 	background-position: center center;
-	background-size: 100%;
 
 
 }
@@ -444,10 +439,9 @@ width: 100%;
 #headline{
 	background-size: 100%;
 	min-height: 500px;
+	background-attachment: fixed !important;
 
 }
-}
-
 
 }
 
