@@ -2764,14 +2764,7 @@ a.jp-restore-screen:hover span { background-position:-84px -84px; }
 }
 .extra-wrap { overflow:hidden; }
 [class*="span"] { position:relative; }
-.clear {
-	clear:both;
-	display:block;
-	overflow:hidden;
-	visibility:hidden;
-	width:0;
-	height:0;
-}
+
 @media (max-width: 480px) {
 	.pp_pic_holder.pp_default {
 		width:100% !important;
