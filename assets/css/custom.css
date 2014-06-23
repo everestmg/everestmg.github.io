@@ -9,6 +9,10 @@
     font-style: normal;
 	}
 
+hide{
+	display: none !important;
+}
+
 .anchfix{
 	top:-103px;
 	display: block;
