@@ -124,6 +124,10 @@ background-image: url("../../img/fb.png");
 background-image: url("../../img/gmail.png");
 }
 
+#top-bar .soc-ico a.gplus {
+background-image: url("../../img/google_plus.png");
+}
+
 #top-bar .soc-ico a.yt {
 background-image: url("../../img/youtube.png");
 }
