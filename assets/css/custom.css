@@ -9,6 +9,22 @@
     font-style: normal;
 	}
 
+.banfoot{
+	height: auto;
+	display: table;
+	width: 100%;
+}
+
+.banpill{
+	padding-top: 50px;
+}
+
+.banpill>img{
+	width:170px;
+}
+
+
+
 hide{
 	display: none !important;
 }
@@ -441,6 +457,12 @@ width: 100%;
 	margin-right: 20px;
 }
 
+.banpill>img{
+	margin-right: 0 auto;
+}
+
+
+
 
 }
 
@@ -452,6 +474,12 @@ width: 100%;
 	background-attachment: fixed !important;
 
 }
+
+.banpill img{
+	float: right !important;
+	margin-right: 20px !important;
+}
+
 
 }
 
