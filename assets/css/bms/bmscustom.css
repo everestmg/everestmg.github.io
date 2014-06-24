@@ -8,7 +8,28 @@ height: 38.4px;
 border-bottom: 1px solid rgba(224,224,224,0.8);
 }
 
+@media(max-width: 700px){
 
+.wf-td .email{
+	display: none;
+}
+
+}
+
+.subbtn{
+	padding: 5px !important;
+	background-color: antiquewhite;
+	margin-left: 10px !important;
+	border-radius: 10px;
+
+}
+
+.subbtn:hover{
+	text-decoration: none !important;
+
+}
+
+}
 
 #top-bar {
 position: relative;
