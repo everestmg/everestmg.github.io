@@ -52,6 +52,8 @@
 <meta content="NiOMYMyNjeQZ6pgCsQpSyL5ntcCH+tHdB1OgeDpRuu4=" name="csrf-token" />
 </head>
 <body class="external enable-fixed-header" id="welcome_index" data-controller="welcome" data-action="index">
+
+  <a id="pagetop"></a>
   
 
 <script>
@@ -83,7 +85,7 @@
             </div>
           <div class="mini-contacts wf-float-left">
               <ul>
-                <a href="#subscribe">
+                <a href="#subscribe" class="scrollo">
                   <li class="subbtn">SUBSCRIBE</li>
                 </a>
               </ul>
@@ -131,7 +133,7 @@
   <div class="navbar navbar-fixed-top">
     <div class="navbar-inner clearfix">
       <div class="container">
-        <a class="brand" href="#store">
+        <a class="brand scrollo" href="#pagetop">
           <span class="logo"><img src="assets/img/emglogo.png" alt="Everest Media Group"/></span>
           <!--<span class="logo-text"><img src="assets/img/emglogo.png" alt="Everest Media Group"/></span>-->
         </a>
@@ -144,12 +146,12 @@
 
         <div class="nav-collapse collapse">
           <ul class="nav pull-right">
-            <li><a href="#store">Store</a></li>
-            <li><a href="#plans">Plans &amp; Pricing</a></li>
+            <li><a href="#store" class="scrollo">Store</a></li>
+            <li><a href="#plans" class="scrollo">Plans &amp; Pricing</a></li>
               <li>
-                <a href="#tour"> <!--class="dropdown-toggle" data-toggle="dropdown">-->Services</a>
+                <a href="#tour" class="scrollo"> <!--class="dropdown-toggle" data-toggle="dropdown">-->Services</a>
                   <ul class="dropdown-menu">
-                    <li><a href="#store">Beats</a></li>
+                    <li><a href="#store" class="scrollo">Beats</a></li>
                     <li><a href="#">Soundclick Layouts</a></li>
                     <li><a href="#">Graphic Design</a></li>
                     <li><a href="#">Mixing and Mastering</a></li>
@@ -160,7 +162,7 @@
                     <li><a href="#">Artists</a></li>-->
                   </ul>              
               </li>
-            <li><a href="#about">About</a></li>
+            <li><a href="#about" class="scrollo">About</a></li>
             <li><a href="mailto:everestmgteam@gmail.com">Contact</a></li>
           </ul>
         </div>
@@ -182,7 +184,7 @@
       </p>
 
       <div class="actions">
-        <a href="#store" class="btn btn-large btn-primary demo-link hidden-phone">Beat Store</a>
+        <a href="#store" class="scrollo btn btn-large btn-primary demo-link hidden-phone">Beat Store</a>
         <a href="https://www.myflashstore.net/widgets/html5/?uid=50995&scheme=blue" class="btn btn-large btn-inverse tour-link">MOBILE STORE</a>
       </div>
     </div>
@@ -665,7 +667,7 @@
   <span class="span12">
     <ul class="nav nav-pills">
       <li><a href="https://twitter.com/everestmg">@everestmg</a></li>
-      <li><a href="#about">About</a></li>
+      <li><a href="#about" class="scrollo">About</a></li>
       <li><a href="mailto:everestmgteam@gmail.com">Contact</a></li>
     </ul>
   </span>
@@ -674,6 +676,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="assets/js/bootstrap.js"></script>
 <script src="assets/js/custom.js"></script>
+<script src="assets/js/scrollTo.js"></script>
 
 <script>
 
@@ -883,6 +886,21 @@ function mce_success_cb(resp){
         }
     }
 }
+
+</script>
+
+<script>
+
+
+$(document).ready(function(){
+  $('.scrollo').scrollTo({
+});
+
+
+});
+
+
+
 
 </script>
 </body>
