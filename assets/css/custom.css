@@ -10,11 +10,24 @@
 	}
 
 .moth:hover div{
-	padding-top: 20px;
+	padding-top: 10px;
 	-webkit-transition: all 0.2s ease-in-out 0;
 	-moz-transition: all 0.2s ease-in-out 0;
 	-o-transition: all 0.2s ease-in-out 0;
 	transition: all 0.2s ease-in-out 0;
+}
+
+
+.moth div{
+	-webkit-transition: all 0.5s ease-in-out 0;
+	-moz-transition: all 0.5s ease-in-out 0;
+	-o-transition: all 0.5s ease-in-out 0;
+	transition: all 0.5s ease-in-out 0;
+}
+
+#users{
+	padding-bottom: 0px !important;
+	min-height: 142px;
 }
 
 @media(min-width:780px){
