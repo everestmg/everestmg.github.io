@@ -196,6 +196,7 @@
   </div>
 
   <div id="users">
+    <a id="deals" class="anchfix"></a>
     <div class="container mobpad">
       <div class="row">
         <div class="designers span4">
@@ -204,7 +205,7 @@
           </div>
           <h2>Quality Catalog</h2>
           <h3>Professional Industry Sound</h3>
-          <p>
+          <p class="content-one">
           With a large catalog of <a href="#store" class="scrollo">rap beats for sale</a> you can find exactly what you need. Our producers create <a href="#store" class="scrollo">quality beats</a> of various genres from smooth <a href="#store" class="scrollo">R&amp;B to hard-hitting trap beats</a>. Find new beats are updated weekly. Find the instrumental for your next song today!
           </p>
         </div>
@@ -214,7 +215,7 @@
           </div>
           <h2>Sales and Offers</h2>
           <h3>Get Amazing Deals Always</h3>
-          <p>
+          <p class="content-one">
             Limited time offer: Buy an <a href="#store" class="scrollo">affordable rap beat</a> today and receive two other beats of your choice for free! Make sure to stock up on beats for your next project while this super sale lasts. Sign up to our <a href="#subscribe" class="scrollo">mailing list</a> to stay updated on current sales and offers. With multiple options to <a href="#plans" class="scrollo">lease rap beats</a>. you will have flexibility whille stocking up your next mixtape with the <a href="#store" class="scrollo">hottest new rap beats</a>.
           </p>
         </div>
@@ -224,11 +225,12 @@
           </div>
           <h2>Secure Payment</h2>
           <h3>Feel Secure paying with Paypal</h3>
-          <p>
+          <p class="content-one">
          Using our paypal certified store, you can feel safe making your purchase.  Payment methods include Paypal, Debit Card, Credit Card (Visa, Mastercard, American Express, Discover). We also offer a special "Bill Me Later" option which the payment can be made in up to 6 months.
           </p>
          
         </div>
+          <div class="expand-one"><a href="#deals" class="scrollo"><img src="assets/img/arrow.png"/></a></div>
       </div>
 
     </div>
@@ -901,6 +903,10 @@ function mce_success_cb(resp){
 $(document).ready(function(){
   $('.scrollo').scrollTo({
 
+});
+
+  $('.expand-one').click(function(){
+    $('.content-one').slideToggle('slow');
 });
 
 

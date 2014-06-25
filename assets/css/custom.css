@@ -8,7 +8,30 @@
     font-weight: normal;
     font-style: normal;
 	}
+@media(min-width:780px){
+.expand-one{
+	width: 100%;
+	display: table;
+}
 
+.expand-one img, .expand-one a{
+	width: 50px;
+	margin: 0 auto;
+	display: block;
+}
+
+.content-one{
+	display:none;
+}
+
+
+}
+@media(max-width: 780px){
+.expand-one{
+	display: none;
+}
+
+}
 .banfoot{
 	height: auto;
 	display: table;
