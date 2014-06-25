@@ -8,6 +8,15 @@
     font-weight: normal;
     font-style: normal;
 	}
+
+.moth:hover div{
+	padding-top: 20px;
+	-webkit-transition: all 0.2s ease-in-out 0;
+	-moz-transition: all 0.2s ease-in-out 0;
+	-o-transition: all 0.2s ease-in-out 0;
+	transition: all 0.2s ease-in-out 0;
+}
+
 @media(min-width:780px){
 .expand-one{
 	width: 100%;
