@@ -15,7 +15,7 @@
 }
 
 .expand-one img, .expand-one a{
-	width: 50px;
+	width: 30px;
 	margin: 0 auto;
 	display: block;
 }
@@ -32,6 +32,7 @@
 }
 
 }
+
 .banfoot{
 	height: auto;
 	display: table;
@@ -58,6 +59,14 @@ hide{
 	position: relative;
 	visibility: hidden;
 }
+
+.anchfix2{
+	top:-153px;
+	display: block;
+	position: relative;
+	visibility: hidden;
+}
+
 
 #users{
 	font-size: 15px;
