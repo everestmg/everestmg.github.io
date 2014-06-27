@@ -134,7 +134,7 @@ margin: 0;
 	display: block;
 	margin: 100px auto;
 	background-color: rgba(38,38,38,0.5);
-	border: 13px rgba(38,38,38,0.5);
+	border: 13px solid rgba(38,38,38,0.05);
 }
 
 
