@@ -38,8 +38,8 @@ margin: 0;
 	background-color: rgba(62, 146, 239, 0.3);
 	padding: 5px !important;
 	border: none !important;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
+	/*border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;*/
 	position: relative;
 	margin:0 auto;
 	-webkit-transition: all 0.2s ease-in-out 0;
@@ -60,6 +60,9 @@ margin: 0;
 .row1 h2{
 	color: white;
 	margin: 0;
+	font-family: "alternate-gothic-no-1-d", Helvetica, Arial;
+	margin-top: 10px;
+	font-size: 30px
 }
 
 .row1 table{
@@ -71,7 +74,7 @@ margin: 0;
 	width: 348px;
 	background-color: rgba(222,222,222,0.7);
 	float: left;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 	margin-left: 20px
 
 }	
@@ -79,7 +82,7 @@ margin: 0;
 .scplayer{
 	margin: 0 auto;
 	border: 18.5px solid rgba(222,222,222,0.7);
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 	height: 150px
 
 }
@@ -90,7 +93,7 @@ margin: 0;
 	background-color: rgba(222,222,222,0.7);
 	float: left;
 	margin-left: 23px;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 }	
 
 .scbox{
@@ -468,7 +471,7 @@ line-height: 30px;
 margin-bottom: 5px;
 }
 .twitter-customers h1, .twitter-customers h2, .twitter-customers h3 {
-font-family: "Montserrat", "Helvetica", "Arial";
+font-family: "Montserrat", Helvetica, Arial;
 font-weight: normal;
 }
 @media screen
@@ -495,7 +498,7 @@ color: #fff;
 text-align: center;
 }
 h4.sub-title {
-font-family: "Source Sans Pro";
+font-family: "Source Sans Pro", Helvetica, Arial;
 font-size: 21px;
 color: #7f7f7f;
 font-style: italic;
