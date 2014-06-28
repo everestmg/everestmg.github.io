@@ -9,6 +9,18 @@
     font-style: normal;
 	}
 
+
+.pillow p{
+	font-size: 18px !important;
+	font-weight: 500 !important;
+	line-height: 1 !important;
+	text-transform: uppercase;
+	color: dimgrey !important;
+
+
+
+}	
+
 .spec2{
 	border-left: 1px solid rgba(86,86,86,0.5);
 }
