@@ -9,6 +9,12 @@
     font-style: normal;
 	}
 
+.socialsec img{
+	height: 25px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
 .socsub{
 	background-color: rgba(223,53,45,0.8);
 }
@@ -83,10 +89,12 @@
 
 .socialsec h4{
 	color: white ;
-	font-size: 21px;
+	font-size: 18px;
 	font-family: 'proxima-nova', Arial, Helvetica;
-	font-weight: 1000;
-	margin: 10px 0;
+	font-weight: 100;
+	margin: 10px auto;
+	width: 260px;
+	text-transform: uppercase;
 
 }
 
@@ -95,7 +103,7 @@
 	font-size: 18px;
 	font-family: 'proxima-nova', Arial, Helvetica;
 	text-transform: uppercase;
-	font-weight: 500;
+	font-weight: 100;
 	margin-bottom: 0
 
 }
