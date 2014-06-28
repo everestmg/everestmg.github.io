@@ -9,7 +9,22 @@
     font-style: normal;
 	}
 
+.spec2{
+	border-left: 1px solid rgba(86,86,86,0.5);
+}
 
+.spec1, .spec2{
+	float: left;
+	width: 208.5px;
+	position: relative;
+	height: 100%;
+}
+
+
+.pillow{
+	height: 127px !important;
+	margin-bottom: 10px;
+}
 
 .beatsec form{
 	margin: 0 !important;
