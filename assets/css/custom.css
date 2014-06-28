@@ -9,6 +9,97 @@
     font-style: normal;
 	}
 
+.socsub{
+	background-color: rgba(223,53,45,0.8);
+}
+
+.socfb{
+	background-color: rgba(56,76,145,0.8);
+}
+
+.soctw{
+	background-color: rgba(75,152,241,0.8);
+}
+
+.socsub:hover{
+	background-color: rgba(223,53,45,1);
+}
+
+.socfb:hover{
+	background-color: rgba(56,76,145,1);
+}
+
+.soctw:hover{
+	background-color: rgba(75,152,241,1);
+}
+
+
+#headline li{
+	list-style: none;
+}
+
+.socbtns h4{
+	text-transform: uppercase;
+	line-height: 1;
+	margin:0;
+	font-size: 30px !important;
+	font-family: 'alternate-gothic-no-1-d', Helvetica, Arial !important;
+	font-weight: 100 !important;
+	margin: 17.5px 0 !important;
+
+}
+
+.socialsec{
+	margin-top: 10px !important;
+}
+
+.socialsec ul{
+	height: 65px;
+	width: 100%;
+	margin: 0;
+}
+
+.socialsec li{
+	height: 100% !important;
+	position: relative;
+	float: left !important;
+	width: 33.33333% !important;
+	margin: 0px !important;
+}
+
+
+.socmsg{
+	width: 300px;
+	position: relative;
+	float: left;
+}
+
+.socbtns{
+	width: 784px;
+	height: 65px;
+	float: left;
+	position: relative;
+}
+
+.socialsec h4{
+	color: white ;
+	font-size: 21px;
+	font-family: 'proxima-nova', Arial, Helvetica;
+	font-weight: 1000;
+	margin: 10px 0;
+
+}
+
+.promomsg h4{
+	color: white;
+	font-size: 18px;
+	font-family: 'proxima-nova', Arial, Helvetica;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 0
+
+}
+
 .nomarg{
 	margin: 0 !important;
 }
@@ -74,7 +165,7 @@ margin: 0;
 	margin: 0 auto;
 }
 
-.row1 ul li{
+.beatsec .row1 ul li{
 	height: auto;
 	width: 352.666667px;
 	background-color: rgba(222,222,222,0.7);
@@ -116,7 +207,7 @@ margin: 0;
 }
 
 @media(max-width: 780px){
-	.beatsec{
+	.beatsec, .promomsg, .socialsec{
 		display: none !important;
 	}
 }
@@ -128,11 +219,12 @@ margin: 0;
 }
 
 
-.beatsec{
+.beatsec, .socialsec{
 	height: auto;
 	width: 1084px;
 	display: block;
 	margin: 100px auto;
+	margin-bottom: 10px;
 	background-color: rgba(38,38,38,0.5);
 	border: 13px solid rgba(38,38,38,0.05);
 }
