@@ -34,11 +34,11 @@
 	width: auto;
 	height: 100%;
 	text-transform: uppercase;
-	background-color: orange;
+	background-color: rgb(57,167,197);
 	float: left;
 	position: relative;
 	padding: 0 10px;
-	opacity: 0.6;
+	opacity: 0.3;
 
 }	
 
