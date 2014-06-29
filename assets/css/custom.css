@@ -386,13 +386,13 @@ margin: 0;
 	margin-bottom: 13px;
 }
 
-@media(max-width: 780px){
+@media(max-width: 1084px){
 	.beatsec, .promomsg, .socialsec{
 		display: none !important;
 	}
 }
 
-@media(min-width: 780px){
+@media(min-width: 1084px){
 	.emghead{
 		display: none !important;
 	}
@@ -412,7 +412,9 @@ margin: 0;
 
 .socialsec{
 	background-color: rgba(38,38,38,0.5);
-	border: 10px solid rgba(38,38,38,0.05);
+	border-top: 10px solid rgba(38,38,38,0.01);
+	border-bottom: 8px solid rgba(38,38,38,0.01);
+	border-radius: 2px;
 }
 
 
