@@ -9,6 +9,28 @@
     font-style: normal;
 	}
 
+.countdown .animated{
+	width: 50px;
+	position: relative;
+	float: left;
+}
+
+.subbtn2{
+	left: 10px;
+}
+
+.fbbtn{
+	left: 140px;
+}
+
+.twbtn{
+	left: 270px;
+}
+
+.buysec p{
+	color: #333 !important;
+}
+
 .trst{
 	-webkit-transition: all 0.2s ease-in-out 0;
 	-moz-transition: all 0.2s ease-in-out 0;
@@ -87,8 +109,8 @@
 }
 
 .buynow{
-	width: 100% !important;
-	opacity: 0.8;
+	opacity: 1;
+	margin-bottom: 10px;
 }
 
 .buynow:hover{
@@ -130,7 +152,7 @@
 	list-style: none;
 }
 
-.socbtns h4{
+/*.socbtns h4{
 	text-transform: uppercase !important;
 	line-height: 1;
 	margin:0;
@@ -139,6 +161,17 @@
 	font-weight: 100 !important;
 	margin: 17.5px 0 !important;
 
+}*/
+
+.socbtns h4{
+font-family: "proxima-nova",Helvetica,Arial,serif;
+padding: 4px 14px 4px 14px;
+font-weight: bold !important;
+color: #9a9a9a;
+border: none;
+text-shadow: none;
+box-shadow: none;
+line-height: 20px;
 }
 
 .socialsec{
@@ -151,14 +184,35 @@
 	margin: 0;
 }
 
-.socialsec li{
+/*.socialsec li{
 	height: 100% !important;
 	position: relative;
 	float: left !important;
 	width: 33.33333% !important;
 	margin: 0px !important;
+}*/
+
+.socialsec li{
+	height: 20px !important;
+	width: 100px !important;
+	margin: 0px !important;
+	padding: 10px;
+	display: block;
+	position: absolute;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 2px;
 }
 
+.socbtns h4{
+	width: 100px !important;
+	height: 20px;
+	margin: 0 !important;
+	padding: 0 !important;
+	line-height: 20px;
+}
 
 .socmsg{
 	width: 300px;
@@ -168,7 +222,7 @@
 
 .socbtns{
 	width: 784px;
-	height: 65px;
+	height: 45px;
 	float: left;
 	position: relative;
 }
@@ -179,7 +233,7 @@
 	font-family: 'proxima-nova', Arial, Helvetica;
 	font-weight: 300;
 	margin: 12.5px auto;
-	width: 260px;
+	width: 300px;
 	text-transform: none;
 
 }
@@ -190,7 +244,7 @@
 	font-family: 'proxima-nova', Arial, Helvetica;
 	text-transform: none;
 	font-weight: 300;
-	margin-bottom: 0
+	margin: 20px auto;
 
 }
 
@@ -262,12 +316,21 @@ margin: 0;
 .beatsec .row1 ul li{
 	height: auto;
 	width: 354px;
-	background-color: rgba(222,222,222,0.7);
+	background-color: #f4f4f4;
 	float: left;
-	/*border-radius: 10px;*/
+	border-radius: 2px;
 	margin-left: 10px
 
+}
+
+.socbtns h4{
+	font-size: 14px;
+}
+
+.socbtns img{
+	height: 20px;
 }	
+
 
 .midli{
 	width: 356px !important;
@@ -275,8 +338,8 @@ margin: 0;
 
 .scplayer{
 	margin: 0 auto;
-	border: 18.5px solid rgba(222,222,222,0.7);
-	/*border-radius: 10px;*/
+	border: 18.5px solid #f4f4f4;
+	border-radius: 2px;
 	height: 150px
 
 }
@@ -284,10 +347,10 @@ margin: 0;
 .buysec{
 	width: 418px;
 	height: 187px;
-	background-color: rgba(222,222,222,0.7);
+	background-color: #f4f4f4;
 	float: left;
 	margin-left: 10px;
-	/*border-radius: 10px;*/
+	border-radius: 2px;
 }	
 
 .scbox{
@@ -321,8 +384,14 @@ margin: 0;
 	height: auto;
 	width: 1084px;
 	display: block;
-	margin: 0 auto 10px auto;
+	margin: 100px auto 10px auto;
 	margin-bottom: 10px;
+	/*background-color: rgba(38,38,38,0.5);
+	border: 10px solid rgba(38,38,38,0.05);
+	*/
+}
+
+.socialsec{
 	background-color: rgba(38,38,38,0.5);
 	border: 10px solid rgba(38,38,38,0.05);
 }

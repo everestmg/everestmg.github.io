@@ -176,14 +176,14 @@
 
 
   <div id="headline" class="section-white row-fluid blackbox">
-    <div class="topop">
+    <!--<div class="topop">
       <a href="#store" class="scrollo">
         <div class="mfsbtn trst">
           New: *Instant Beat Store* For +5 Purchases 
         </div>
       </a>
 
-    </div>
+    </div>-->
     
     <div class="beatsec">
       <div class="row1">
@@ -210,6 +210,22 @@
               <div class="spec1">
                 <p>Commericial Leases: Buy one get 2 free</p>
                 <p> Limited Time Only</p>
+                <p>
+                <div class=" countdown">        
+                    <div class="animated" data-animation-delay="0" data-animation="fadeInUp">
+                      <div id="days">00</div><div id="days-text">Days</div>
+                    </div>
+                    <div class="animated" data-animation-delay="200" data-animation="fadeInUp">
+                      <div id="hours">00</div><div id="hours-text">Hours</div>
+                    </div>
+                    <div class="animated" data-animation-delay="400" data-animation="fadeInUp">
+                      <div id="minutes">00</div><div id="minutes-text">Mins</div>
+                    </div>
+                    <div class="animated" data-animation-delay="600" data-animation="fadeInUp">
+                      <div id="seconds">00</div><div id="seconds-text">Secs</div>
+                    </div>
+                </div>
+                </p>
               </div>
               <div class="spec2">
                 <p>Check out our bulk <strong>package discounts</strong> on basic and unlimited leases. The more you buy the more you save!</p>
@@ -236,7 +252,7 @@
               <tr><td><input type="hidden" name="on1" value="Beat Name(s)">Beat Name(s)</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
               </table>
               <input type="hidden" name="currency_code" value="USD">
-              <input class="buynow" type="image" src="assets/img/buy_now.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <input class="buynow" type="image" src="assets/img/buybtn.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
               <!--<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">-->
               </form>
               <a href="#plans" class="scrollo">
@@ -259,7 +275,7 @@
                 <tr><td><input type="hidden" name="on1" value="Beat Name(s)">Beat Name(s)</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
                 </table>
                 <input type="hidden" name="currency_code" value="USD">
-                <input class="buynow" type="image" src="assets/img/buy_now.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <input class="buynow" type="image" src="assets/img/buybtn.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                 <!--<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">-->
                 </form>
                 <a href="#plans" class="scrollo">
@@ -284,7 +300,7 @@
               <tr><td><input type="hidden" name="on1" value="Beat Name(s)">Beat Name(s)</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
               </table>
               <input type="hidden" name="currency_code" value="USD">
-              <input class="buynow" type="image" src="assets/img/buy_now.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <input class="buynow" type="image" src="assets/img/buybtn.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
               <!--<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">-->
               </form>
               <a href="#plans" class="scrollo">
@@ -310,18 +326,18 @@
         <div class="socbtns">
           <ul>
             <a href="http://mailing.everestmg.com" target="_blank">
-              <li class="socsub trst">
+              <li class="socsub trst subbtn2">
                 <h4>Subscribe<img src="assets/img/email-12-512.png"></h4>
               </li>
             </a>
             <a href="https://www.facebook.com/everestmg/app_208195102528120" target="_blank">  
-              <li class="socfb trst">
+              <li class="socfb trst fbbtn">
                 <h4>Like Us<IMG SRC="assets/img/facebook-2-512.png"></h4>
               </li>
             </a>
             <!--<iframe src="http://www.paywithatweet.com/dlbutton03.php?id=c3bf8c54-ebe0-4bf4-83b6-c5b54bbb726a" class="spaced-right" name="paytweet_button" scrolling="no" frameborder="no" height="48px" width="292px"></iframe>-->
             <a href="http://www.paywithatweet.com/pay?id=c3bf8c54-ebe0-4bf4-83b6-c5b54bbb726a" target="_blank">  
-              <li class="soctw trst">
+              <li class="soctw trst twbtn">
                 <h4>Tweet Us<img src="assets/img/twitter-2-512.png"></h4>
               </li>
             </a>  
@@ -1067,8 +1083,56 @@ $(document).ready(function(){
     $('.content-one').slideToggle('slow');
 });
 
+/*
+ * COUNTDOWN
+ */
+
+  setInterval(function() {
+    var target = new Date("July 06 2014 00:01:00 GMT+0200"); //replace with YOUR DATE
+    var now = new Date();
+    var difference = Math.floor((target.getTime() - now.getTime()) / 1000);
+
+    var seconds = fixIntegers(difference % 60);
+    difference = Math.floor(difference / 60);
+
+    var minutes = fixIntegers(difference % 60);
+    difference = Math.floor(difference / 60);
+
+    var hours = fixIntegers(difference % 24);
+    difference = Math.floor(difference / 24);
+
+    var days = difference;
+
+  
+    $(".countdown #seconds").html(seconds);
+    $(".countdown #seconds").css({top:"-50px",opacity:0});
+    $(".countdown #seconds").animate({top:'0px',opacity:1},500);
+    
+    $(".countdown #minutes").html(minutes);
+
+    
+    $(".countdown #hours").html(hours);
+
+    
+    $(".countdown #days").html(days);
+
+    
+  }, 1000); 
+
+
+
+  function fixIntegers(integer) {
+    if (integer < 0)
+      integer = 0;
+    if (integer < 10)
+      return "0" + integer;
+    return "" + integer;
+  }
+
 
 });
+
+
 
 
 
