@@ -9,24 +9,34 @@
     font-style: normal;
 	}
 
+.countdown{
+	margin-left: 25px;
+}
 
+.socmsg h4, .socmsg2 h4, .promomsg h4{
+	letter-spacing: 0 !important;
+}
+
+.affixwrap{
+	min-height: 102px;
+}
 
 .countdown .animated{
-	width: 50px;
+	width: 40px;
 	position: relative;
 	float: left;
 }
 
 .subbtn2{
-	left: 10px;
+	left: 0px;
 }
 
 .fbbtn{
-	left: 140px;
+	left: 130px;
 }
 
 .twbtn{
-	left: 270px;
+	left: 260px;
 }
 
 .buysec p{
@@ -81,7 +91,7 @@
 .pillow p{
 	font-size: 16px !important;
 	font-weight: 300 !important;
-	line-height: 1 !important;
+	line-height: 1.2 !important;
 	text-transform: none;
 	padding: 0 10px;
 
@@ -112,7 +122,8 @@
 
 .buynow{
 	opacity: 1;
-	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 .buynow:hover{
@@ -217,13 +228,13 @@ line-height: 20px;
 }
 
 .socmsg{
-	width: 300px;
+	width: 370px;
 	position: relative;
 	float: left;
 }
 
 .socbtns{
-	width: 784px;
+	width: 714px;
 	height: 45px;
 	float: left;
 	position: relative;
@@ -349,8 +360,8 @@ margin: 0;
 .socmsg2{
 	width: 350px !important;
 	position: absolute;
-	left: 400px;
-	top: 10px;
+	left: 450px;
+	top: 3px;
 }
 
 .socmsg2 h4 a{
@@ -361,6 +372,14 @@ margin: 0;
 	width: auto !important;
 	left: 0;
 	text-align: left;
+	font-size: 16px;
+	letter-spacing: 0px;
+	font-weight: 300 !important;
+}
+
+.socmsg h4{
+	width: 100%;
+	font-size: 16px;
 }
 
 .buysec{
@@ -385,6 +404,7 @@ margin: 0;
 	display:table;
 	margin-bottom: 13px;
 }
+
 
 @media(max-width: 1084px){
 	.beatsec, .promomsg, .socialsec{
