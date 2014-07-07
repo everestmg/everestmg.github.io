@@ -987,3 +987,20 @@ width: 100%;
 .bbfont *{
 	color: #E4EAEE;
 }
+.redco {
+    background-color: rgba(215,70,59,1) !important;
+    height: 300px !important;
+}
+
+.whiteco {
+    color: white !important;
+}
+
+.sideli {
+    margin-top: 15px !important;
+}
+
+.detpush {
+    margin-top: 35px !important;
+    background-color: rgba(33, 143, 70, 0);
+}
