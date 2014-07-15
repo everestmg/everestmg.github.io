@@ -1004,3 +1004,31 @@ width: 100%;
     margin-top: 35px !important;
     background-color: rgba(33, 143, 70, 0);
 }
+
+#services {
+    width:100%;
+    height:auto;
+    position: relative;
+}
+
+
+@media(min-width:750px){
+#services .col4 {
+    width: 25%;
+    height: auto;
+    position: relative;
+    float:left;
+}
+
+
+    
+}
+
+#services h2 {
+    text-align: center;
+    color: dimgrey;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+
