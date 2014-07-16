@@ -369,7 +369,8 @@ margin: 0;
 }
 
 .socmsg2{
-	width: 350px !important;
+	width: 250px !important;
+    height: 45 !important;
 	position: absolute;
 	left: 450px;
 	top: 3px;
@@ -1031,4 +1032,7 @@ width: 100%;
     font-size: 24px;
 }
 
+.ads{
+    margin-left: 0!important;
+}
 
