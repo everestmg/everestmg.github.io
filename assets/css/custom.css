@@ -1036,3 +1036,54 @@ width: 100%;
     margin-left: 0!important;
 }
 
+#services h3{
+    text-align: center;
+    font-family: "Montserrat", Helvetica, Arial;
+    font-weight: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+li{
+    list-style: none;
+}
+
+#services>.row>.col4>ul{
+    padding: 0 10px;
+    
+}
+
+#services>.row>.col4{
+    border-right: 1px solid rgba(0,0,0,0.2);
+    width: 24%;
+    height: 650px;
+    
+}
+
+.nobord{
+    border: none !important;
+}
+
+
+#services{
+    padding: 40px 0px;;
+}
+
+#services form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+ 
+}
+
+#services form input{
+    margin-left: auto;
+    margin-right: auto;
+    display:   table;
+ 
+}
+
+#services .row{
+    width: 100%;
+    margin-left: 0;
+}
