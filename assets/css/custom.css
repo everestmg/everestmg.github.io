@@ -1087,3 +1087,37 @@ li{
     width: 100%;
     margin-left: 0;
 }
+
+#services .price{
+    font-size: 24px;
+    padding: 10px;
+    border: 2px solid #333;
+    margin: 20px auto;
+    border-radius: 5px;
+    width:80px;
+}
+
+#services a.btn1{
+    background-color: rgba(223,53,45,0.8);
+    display: block;
+    margin: 20px auto;
+    padding: 40px !important;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 1px;
+    -webkit-transition: all 0.2s ease-in-out 0;
+	-moz-transition: all 0.2s ease-in-out 0;
+	-o-transition: all 0.2s ease-in-out 0;
+	transition: all 0.2s ease-in-out 0;
+}
+
+#services a.btn1:hover{
+    background-color: rgba(223,53,45,1);
+    -webkit-transition: all 0.2s ease-in-out 0;
+	-moz-transition: all 0.2s ease-in-out 0;
+	-o-transition: all 0.2s ease-in-out 0;
+	transition: all 0.2s ease-in-out 0;
+    
+}
