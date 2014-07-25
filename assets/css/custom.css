@@ -317,7 +317,7 @@ margin: 0;
 }
 
 .blueco .detem:hover{
-	background-color: white;
+	background-color: #f4f4f4;
 	-webkit-transition: all 0.2s ease-in-out 0;
 	-moz-transition: all 0.2s ease-in-out 0;
 	-o-transition: all 0.2s ease-in-out 0;
@@ -325,7 +325,7 @@ margin: 0;
 }
 
 .redco .detem:hover{
-	background-color: white;
+	background-color: #f4f4f4;
 	-webkit-transition: all 0.2s ease-in-out 0;
 	-moz-transition: all 0.2s ease-in-out 0;
 	-o-transition: all 0.2s ease-in-out 0;
