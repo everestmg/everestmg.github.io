@@ -309,14 +309,22 @@ margin: 0;
 	border-bottom-right-radius: 10px;*/
 	position: relative;
 	margin:0 auto;
-	-webkit-transition: all 0.2s ease-in-out 0;
-	-moz-transition: all 0.2s ease-in-out 0;
-	-o-transition: all 0.2s ease-in-out 0;
-	transition: all 0.2s ease-in-out 0;
+	-webkit-transition: all 0.8s ease-in-out 0;
+	-moz-transition: all 0.8s ease-in-out 0;
+	-o-transition: all 0.8s ease-in-out 0;
+	transition: all 0.8s ease-in-out 0;
 
 }
 
 .blueco .detem:hover{
+	background-color: white;
+	-webkit-transition: all 0.2s ease-in-out 0;
+	-moz-transition: all 0.2s ease-in-out 0;
+	-o-transition: all 0.2s ease-in-out 0;
+	transition: all 0.2s ease-in-out 0;
+}
+
+.redco .detem:hover{
 	background-color: white;
 	-webkit-transition: all 0.2s ease-in-out 0;
 	-moz-transition: all 0.2s ease-in-out 0;
@@ -348,12 +356,19 @@ margin: 0;
 	color: white;
 	margin: 0;
 	text-align: center;
+    -webkit-transition: all 0.8s ease-in-out 0;
+	-moz-transition: all 0.8s ease-in-out 0;
+	-o-transition: all 0.8s ease-in-out 0;
+	transition: all 0.8s ease-in-out 0;
 }
 
-.detem:hover p{
-     color: #2566dc !imporant;
+.blueco .detem:hover p{
+    color: #00a8db !important;
 }
 
+.redco .detem:hover p{
+    color: rgba(215,70,59,1) !important;
+}
 
 .row1 h2{
 	color: rgb(56,53,48);
@@ -1025,7 +1040,7 @@ width: 100%;
 }
 
 .blueco {
-    background-color: #2566dc !important;
+    background-color: #00a8db !important;
     height: 300px !important;
 }
 
