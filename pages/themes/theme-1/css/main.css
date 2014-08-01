@@ -1,0 +1,289 @@
+@font-face {
+    font-family: 'proximanova-light';
+    src: url('fonts/proximanova-light.otf');
+    font-weight:normal;
+    font-style: normal;
+	}
+
+/* ===========================
+   ======= GENERAL =============== 
+   =========================== */
+
+body {
+	font-family: 'proximanova-light', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 1;
+    margin: 0px;
+}
+    
+
+section{
+    position: relative;
+    display: table;
+    float: left;
+    width: 100%;
+}
+    
+.tc1{
+    background-color: #00c2a9;
+}
+
+div{
+    height: 100%;
+}
+
+ul, li{
+    list-style: none;
+    margin: 0;
+    height: 100%;
+}
+
+a{
+  text-decoration: none;
+    color: inherit;
+}
+
+.nav ul li a{
+    font-family: 'Roboto','proximanova-light', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    font-weight:300;
+}
+
+a.trs{
+    -webkit-transition: all 0.2s ease-in-out 0;
+	-moz-transition: all 0.2s ease-in-out 0;
+	-o-transition: all 0.2s ease-in-out 0;
+	transition: all 0.2s ease-in-out 0;
+}
+
+
+a.trs:hover{
+    -webkit-transition: all 0.2s ease-in-out 0;
+	-moz-transition: all 0.2s ease-in-out 0;
+	-o-transition: all 0.2s ease-in-out 0;
+	transition: all 0.2s ease-in-out 0;
+}
+
+h2{
+    font-family: 'proximanova-light', sans-serif;
+    color: #444;
+    display: block;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    font-size: 50px;
+    top: 75px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.nomarg {
+margin: 0 !important;
+}
+
+.row1 h2 {
+color: rgb(56,53,48);
+margin: 0;
+font-family: "alternate-gothic-no-1-d", Helvetica, Arial;
+margin-top: 10px;
+font-size: 25px;
+text-transform: uppercase;
+}
+
+.pillow {
+height: 127px !important;
+margin-bottom: 10px;
+}
+
+.spec1, .spec2 {
+float: left;
+width: 208.5px;
+position: relative;
+height: 100%;
+}
+
+.row1 ul li {
+height: auto;
+width: 354px;
+background-color: #f4f4f4;
+float: left;
+border-radius: 2px;
+margin-left: 10px;
+}
+
+
+    
+/* ===========================
+   ======= NAV =============== 
+   =========================== */
+
+.nav {
+	display:block;
+	width: 100%;
+	height: 64px;
+	position:fixed;
+    z-index: 70;
+}
+
+.navbody{
+    width:1100px;
+    margin: 0 auto;
+    height: 100%
+}
+
+.navleft{
+    position: relative;
+    float: left;
+    width: auto;
+    height: 100%;
+}
+
+.navright{
+    position: relative;
+    float: right;
+}
+
+.nav li{
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+.nav ul li a{
+    line-height: 16px;
+    padding: 24px;
+    display: block;
+}
+
+.nav ul li a:hover{
+    background-color: white;
+    color: #00c2a9;
+}
+
+/* ===========================
+   ======= BANNER ============ 
+   =========================== */
+
+.banner {
+	background-image: url('../img/banner.jpg');
+	background-attachment: fixed;
+	opacity:0.8;
+	background-size: 100%;
+	display:block;
+	width: 100%;
+	height: 700px;
+	background-repeat: no-repeat;
+}
+
+.banneroverlay{
+	background-color: #000;
+	opacity: 0.8;
+	background-size: 100%;
+	display:block;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+
+
+.bannerlogo {
+
+}
+
+.overlay1{
+    width: 100%;
+    margin: 0px auto;
+    height: 100%;
+    visibility: visible;
+    background-image: url(../img/overlay-pattern.png)
+}
+
+/* ===========================
+   ======= STORE ============= 
+   =========================== */
+
+.store{
+    background: rgb(246,246,246);
+}
+
+.storeborder{
+    height: auto;
+    width: 1084px;
+    display: block;
+    margin: 0 auto 0 auto;
+    margin-bottom: 0px;
+}
+
+.row1 {
+position: relative;
+height: auto;
+width: 100%;
+display: table;
+margin-bottom: 13px;
+
+}
+
+.scbox {
+width: auto;
+height: auto;
+float: left;
+}
+
+.scplayer {
+margin: 0 auto;
+border: 18.5px solid #f4f4f4;
+border-radius: 2px;
+height: 150px;
+}
+
+.buysec {
+width: 418px;
+height: 187px;
+background-color: #f4f4f4;
+float: left;
+margin-left: 10px;
+border-radius: 2px;
+}
+
+
+/* ===========================
+   ======= MAIL ============== 
+   =========================== */
+
+.mail{
+    background-image: url(../img/banner.jpg)
+}
+
+.overlay2{
+    width: 100%;
+    margin: 0px auto;
+    height: 100%;
+    background-color: rgba(42,184,50,0.7)
+}
+
+
+/* ===========================
+   ======= LICENSE ===========
+   =========================== */
+
+
+
+/* ===========================
+   ======= QOUTE =============
+   =========================== */
+
+/* ===========================
+   ======= ABOUT =============
+   =========================== */
+
+/* ===========================
+   ======= SOCIAL ============
+   =========================== */
+
+
+/* ===========================
+   ======= FOOTER ============
+   =========================== */
+
