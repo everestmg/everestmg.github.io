@@ -16,12 +16,24 @@ body{
 	color: #444;
 }
 .tc3{
-	background-color: 
+	background-color: #f8f8f8;
 }
 .tc4{
-	background-color: 
+	color:#FFF;
 }
+/* 
 
+=====LEGEND=======
+
+tc1 = main color - teal
+
+tc2 = black fonts
+
+tc3 = light grey backgrounds
+
+tc4 = white fonts
+
+*/
 
 /* ===========================
    ======= NAV ===============
@@ -66,7 +78,6 @@ body{
 .store{
 	width:100%;
 	height:auto;
-	background-color: #FFF;
 	position:relative;
 	padding-bottom: 50px;
 	padding-top:50px;
@@ -90,9 +101,38 @@ body{
 	height:auto;
 	background-color: #444;
 	position:relative;
+	background-image: url(../img/mail.jpg);
+	background-attachment:fixed;
+	background-position:center center;
+	background-repeat: no-repeat;
+	background-size: 1366px 700px;
+}
+
+.mailoverlay {
+	width:100%;
+	height:auto;
 	padding-bottom: 50px;
 	padding-top:50px;
+	background-color: rgba(0,194,169,0.8);
 }
+
+.mailtitle{
+	font-family: 'proximanova-light', sans-serif;
+	font-size: 30px;
+	line-height:30px;
+	text-align:center;
+	margin-bottom:20px;
+
+}
+
+.mailtext{
+	font-family: 'proximanova-light', sans-serif;
+	font-size: 20px;
+	line-height:20px;
+	text-align:center;
+
+}
+
 
 /* ===========================
    ======= LICENSE ===========
@@ -101,9 +141,8 @@ body{
 .license{
 	width:100%;
 	height:auto;
-	background-color: #f8f8f8;
 	position:relative;
-	padding-bottom: 50px;
+	padding-bottom: 120px;
 	padding-top:50px;
 
 }
@@ -122,11 +161,12 @@ body{
 	margin: 0 auto;
 }
 
-.col4{
-	height: 400px;
+.licenselist1{
+	height: auto;
 	background-color: #FFF;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
+	margin-top: 10px;
 
 }
 
@@ -134,75 +174,167 @@ body{
 	border-right:1px solid #CFCFCF;
 }
 
-.col4{
-	
-	background-color: #FFF;
+.licenselist2{
+	height: 427px;
+	background-color: #00c2a9;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
 
 }
 
-
-
-/* ===========================
-   ======= QOUTE =============
-   =========================== */
-
-.qoute{
-	width:100%;
-	height:auto;
-	background-color: #666;
-	position:relative;
-	padding-bottom: 50px;
-	padding-top:50px;
-}
-
-/* ===========================
-   ======= ABOUT =============
-   =========================== */
-
-.about{
-	width:100%;
-	height:auto;
-	background-color: #777;
-	position:relative;
-	padding-bottom: 50px;
-	padding-top:50px;
-
-}
-
-.abouttitle{
+.licensecol_1{
 	font-family: 'proximanova-light', sans-serif;
-	font-size: 50px;
-	line-height:50px;
-	margin-top:50px;
-	margin-bottom:50px;
-	text-align:center;
-}
-
-
-/* ===========================
-   ======= SOCIAL ============
-   =========================== */
-
-
-.social{
+	font-size: 20px;
+	line-height: 75px;
+	text-align: center;
+	display:block;
 	width:100%;
-	height:100px;
-	background-color: #888;
+	height:auto;
 	position:relative;
+	padding-top:15px;
+	padding-bottom:15px;
 }
 
-
-/* ===========================
-   ======= FOOTER ============
-   =========================== */
-
-
-.footer{
+.licensecol_2{
+	font-family: 'proximanova-light', sans-serif;
+	font-size: 20px;
+	line-height: 75px;
+	text-align: center;
+	display:block;
 	width:100%;
-	height:200px;
-	background-color: #999;
+	height:auto;
+	background-color: #f7f7f7;
 	position:relative;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-top:1px solid #CFCFCF;
+	border-bottom:1px solid #CFCFCF;
 }
+
+.licensecol_3{
+	display:block;
+	width:100%;
+	height:auto;
+	position:relative;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.licensecol_4{
+	display:block;
+	width:100%;
+	height:auto;
+	position:relative;
+	background-color: #f7f7f7;
+	padding-top:20px;
+	border-top:1px solid #CFCFCF;
+	padding-bottom:20px;
+}
+
+.licensecol_4_1{
+	font-family: 'proximanova-light', sans-serif;
+	font-size: 16px;
+	line-height:44px;
+	display:block;
+	width:50%;
+	height:44px;
+	position:relative;
+	background-color: #00c2a9;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	margin:0 auto;
+	text-align: center;
+	color: #FFF;
+
+}
+
+.licensecol_5{
+	font-family: 'proximanova-light', sans-serif;
+	font-size: 20px;
+	line-height: 75px;
+	text-align: center;
+	display:block;
+	width:100%;
+	height:auto;
+	position:relative;
+	padding-top:15px;
+	padding-bottom:15px;
+	color:white;
+}
+
+.licensecol_6{
+	font-family: 'proximanova-light', sans-serif;
+	font-size: 20px;
+	line-height: 75px;
+	text-align: center;
+	display:block;
+	width:100%;
+	height:auto;
+	background-color: #00c2a9;
+	position:relative;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-top:1px solid #00c2a9;
+	border-bottom:1px solid #00c2a9;
+	color:white;
+}
+
+.licensecol_7{
+	display:block;
+	width:100%;
+	height:auto;
+	position:relative;
+	padding-top:20px;
+	padding-bottom:20px;
+	color:white;
+}
+
+.licensecol_8{
+	display:block;
+	width:100%;
+	height:auto;
+	position:relative;
+	background-color: #00c2a9;
+	padding-top:20px;
+	border-top:1px solid #00c2a9;
+	padding-bottom:20px;
+	color:white;
+}
+
+.licensecol_8_1{
+	font-family: 'proximanova-light', sans-serif;
+	font-size: 16px;
+	line-height:44px;
+	display:block;
+	width:50%;
+	height:44px;
+	position:relative;
+	background-color: #FFF;
+	color:#00c2a9;
+	text-align: center;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	margin:0 auto;
+
+}
+
+.license li{
+	list-style: none;
+	font-family: 'proximanova-light', sans-serif;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.license ul{
+
+}
+
+.nomarg{
+	margin: 0px;
+	padding:0px;
+}
+
 
 .row{
 	display: table;
@@ -214,13 +346,21 @@ body{
 .licensetable{
 	width:1130px;
 }
-.col4{
+.licenselist1{
 	width:24%;
 	float:left;
 	position:relative;
 	border-left:1px solid #CFCFCF;
 	border-top:1px solid #CFCFCF;
 	border-bottom:1px solid #CFCFCF;
+}
+.licenselist2{
+	width:24%;
+	float:left;
+	position:relative;
+	border-left:1px solid #00c2a9;
+	border-top:1px solid #00c2a9;
+	border-bottom:1px solid #00c2a9;
 }
 
 }
@@ -229,11 +369,157 @@ body{
 .licensetable{
 	width:100%;
 }
-.col4{
+.licenselist1{
 	width:100%;
 	border-left:1px solid #CFCFCF;
 	border-top:1px solid #CFCFCF;
 	border-bottom:1px solid #CFCFCF;
 	border-right:1px solid #CFCFCF;
 }
+.licenselist2{
+	width:100%;
+	border-left:1px solid #00c2a9;
+	border-top:1px solid ##00c2a9;
+	border-bottom:1px solid #00c2a9;
+	border-right:1px solid #00c2a9;
+}
+}
+
+
+
+
+
+
+
+/* ===========================
+   ======= QOUTE =============
+   =========================== */
+
+.qoute{
+	width:100%;
+	height:auto;
+	position:relative;
+	background-image: url(../img/qoute.jpg);
+	background-attachment:fixed;
+	background-position:center center;
+	background-repeat: no-repeat;
+	background-size: 1366px 700px;
+}
+
+.qouteoverlay1 {
+	width:100%;
+	height:auto;
+	background-color: rgba(0,0,0,0.7)
+}
+
+.qouteoverlay2 {
+	background-image: url(../img/overlay-pattern.png);
+	background-repeat: repeat;
+	visibility: visible;
+	width:100%;
+	height:auto;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	z-index: 2;
+	
+}
+
+.qoutetext{
+	font-family: 'proximanova-light', sans-serif;;
+	font-size: 50px;
+	font-height:10px;
+	text-align: center;
+}
+
+/* ===========================
+   ======= ABOUT =============
+   =========================== */
+
+.about{
+	width:100%;
+	height:auto;
+	position:relative;
+	padding-bottom: 50px;
+	padding-top:50px;
+
+}
+
+.abouttitle{
+	font-family: 'proximanova-light', sans-serif;
+	font-size: 50px;
+	line-height:50px;
+	margin-top:50px;
+	margin-bottom:30px;
+	text-align:center;
+}
+
+.abouttable{
+	font-family: 'proximanova-light', sans-serif;
+	font-size: 16px;
+	line-height:30px;
+	height:auto;
+	margin: 0 auto;
+	display: block;
+	text-align: justify;
+
+}
+
+
+
+@media(min-width: 1130px){
+.abouttable{
+	width:1130px;
+}
+}
+
+@media(max-width: 1129px){
+.abouttable{
+	width:85%;
+}
+}
+
+
+/* ===========================
+   ======= SOCIAL ============
+   =========================== */
+
+
+.social{
+	width:100%;
+	height:100px;
+	position:relative;
+}
+
+
+/* ===========================
+   ======= FOOTER ============
+   =========================== */
+
+
+.footer{
+	width:100%;
+	height:auto;
+	background-color: #111;
+	position:relative;
+	padding-top:75px;
+	padding-bottom:25px;
+}
+
+.footertitle{
+	font-family: 'proximanova-light', sans-serif;
+	font-size: 30px;
+	line-height:30px;
+	text-align: center;
+	color:#777;
+	margin-bottom: 40px;
+}
+
+.footertext{
+	font-family: 'proximanova-light', sans-serif;
+	font-size: 16px;
+	line-height:30px;
+	text-align: center;
+	color:#777;
+
 }
