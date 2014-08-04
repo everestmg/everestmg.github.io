@@ -504,6 +504,9 @@ margin: 0;
 	margin-bottom: 13px;
 }
 
+.beatsec, .promomsg, .socialsec{
+		display: none !important;
+	}
 
 @media(max-width: 1084px){
 	.beatsec, .promomsg, .socialsec{
@@ -512,9 +515,9 @@ margin: 0;
 }
 
 @media(min-width: 1084px){
-	.emghead{
+	/*.emghead{
 		display: none !important;
-	}
+	}*/
     
     .greybox{
 	height: 100%;
