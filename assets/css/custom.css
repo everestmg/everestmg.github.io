@@ -1131,6 +1131,13 @@ width: 100%;
     float:left;
 }
 
+#services .col3 {
+    width: 33%;
+    height: auto;
+    position: relative;
+    float:left;
+}
+
 
     
 }
@@ -1163,6 +1170,11 @@ li{
     
 }
 
+#services>.row>.col3>ul{
+    padding: 0 10px;
+    
+}
+
 @media(min-width:1100px){
 
 #services>.row>.col4{
@@ -1172,11 +1184,28 @@ li{
     
 }
 
+#services>.row>.col3{
+    border-right: 1px solid rgba(0,0,0,0.2);
+    width: 30%;
+    height: 650px;
+    
+}
+
 }
 
 @media(max-width:1100px){
 
 #services>.row>.col4{
+    border: none;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+#services>.row>.col3{
     border: none;
     width: 100%;
     height: auto;

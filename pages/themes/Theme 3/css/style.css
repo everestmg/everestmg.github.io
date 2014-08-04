@@ -1,5 +1,47 @@
-body{
-	margin:0;
+body {
+margin: 0;
+font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 20px;
+color: #333;
+background-color: #fff;
+text-rendering: optimizelegibility;
+-webkit-font-smoothing: antialiased;
+}
+
+section{
+    position: relative;
+    display: table;
+    float: left;
+    width: 100%;
+}
+
+a{
+  text-decoration: none;
+    color: inherit;
+}
+
+.nav ul li a{
+    font-family: 'Roboto','proximanova-light', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    font-weight:300;
+}
+
+a.trs{
+    -webkit-transition: all 0.2s ease-in-out 0;
+	-moz-transition: all 0.2s ease-in-out 0;
+	-o-transition: all 0.2s ease-in-out 0;
+	transition: all 0.2s ease-in-out 0;
+}
+
+
+a.trs:hover{
+    -webkit-transition: all 0.2s ease-in-out 0;
+	-moz-transition: all 0.2s ease-in-out 0;
+	-o-transition: all 0.2s ease-in-out 0;
+	transition: all 0.2s ease-in-out 0;
 }
 
 @font-face {
@@ -8,6 +50,20 @@ body{
     font-weight:normal;
     font-style: normal;
 	}
+
+@import url("../fonts/proxima-nova/proxima-nova.css");
+
+@font-face {
+    font-family: 'alternate-gothic-no-1-d';
+    src: url('../fonts/alternate-gothic-no2-bt-webfont.eot'),;
+    src: url('../fonts/alternate-gothic-no2-bt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/alternate-gothic-no2-bt-webfont.woff') format('woff'),
+         url('../fonts/alternate-gothic-no2-bt-webfont.ttf') format('truetype'),
+         url('../fonts/alternate-gothic-no2-bt-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
 
 .tc1{
 	background-color: #00c2a9; 
@@ -21,6 +77,13 @@ body{
 .tc4{
 	color:#FFF;
 }
+
+ul, li{
+    list-style: none;
+    margin: 0;
+}
+
+
 /* 
 
 =====LEGEND=======
@@ -39,12 +102,48 @@ tc4 = white fonts
    ======= NAV ===============
    =========================== */
 
-.nav{
-	width:100%;
-	height:75px;
+
+.nav {
+	display:block;
+	width: 100%;
+	height: 64px;
 	position:fixed;
-	display: block;
-	z-index:50;
+    z-index: 70;
+}
+
+.navbody{
+    width:1100px;
+    margin: 0 auto;
+    height: 100%
+}
+
+.navleft{
+    position: relative;
+    float: left;
+    width: auto;
+    height: 100%;
+}
+
+.navright{
+    position: relative;
+    float: right;
+}
+
+.nav li{
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+.nav ul li a{
+    line-height: 16px;
+    padding: 24px;
+    display: block;
+}
+
+.nav ul li a:hover{
+    background-color: white;
+    color: #00c2a9;
 }
 
 /* ===========================
@@ -81,6 +180,7 @@ tc4 = white fonts
 	position:relative;
 	padding-bottom: 50px;
 	padding-top:50px;
+	background-color: #f8f8f8;
 
 }
 
@@ -92,6 +192,448 @@ tc4 = white fonts
 	margin-bottom:50px;
 	text-align:center;
 }
+
+.storeborder{
+	height: auto;
+	width: 1084px;
+	display: block;
+	margin: 0 auto 00px auto;
+	margin-bottom: 0px;
+
+}
+
+.storerow{
+	position: relative;
+	height: auto;
+	width: 100%;
+	display: table;
+	margin-bottom: 13px;
+}
+
+.scbox{
+	width: auto;
+	height: auto;
+	float: left;
+}
+
+.scplayer {
+	margin: 0 auto;
+	border: 18.5px solid #fff;
+	border-radius: 2px;
+	height: 150px;
+}
+
+.buysec{
+	width: 418px;
+	height: 187px;
+	background-color: #fff;
+	float: left;
+	margin-left: 10px;
+	border-radius: 2px;
+}
+
+.storerow ul li {
+height: auto;
+width: 354px;
+background-color: #f4f4f4;
+float: left;
+border-radius: 2px;
+margin-left: 10px;
+}
+
+.sideli {
+margin-top: 15px !important;
+}
+
+.greenco {
+background-color: #32e6ca !important;
+}
+
+.store li {
+line-height: 20px;
+}
+
+.redco {
+background-color: rgba(215,70,59,1) !important;
+height: 300px !important;
+}
+
+.midli {
+width: 356px !important;
+}
+
+.blueco {
+background-color: #00a8db !important;
+}
+
+.storerow h2 {
+color: rgb(56,53,48);
+margin: 0;
+font-family: "alternate-gothic-no-1-d", Helvetica, Arial;
+margin-top: 10px;
+font-size: 25px;
+text-transform: uppercase;
+font-weight: normal !important;
+line-height: 40px;
+letter-spacing: -1px;
+text-rendering: optimizelegibility;
+-webkit-font-smoothing: antialiased;
+text-align: center;
+}
+
+.whiteco {
+color: white !important;
+}
+
+input, textarea, .uneditable-input {
+width: 206px;
+}
+
+input, textarea, .uneditable-input {
+margin-left: 0;
+}
+
+input, button, select, textarea {
+font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+input, button, select, textarea {
+font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+button, input, select, textarea {
+margin: 0;
+font-size: 100%;
+vertical-align: middle;
+}
+
+input[type="hidden"] {
+display: none;
+}
+
+input[type="hidden"], input[type="image"], input[type="file"] {
+-webkit-appearance: initial;
+padding: initial;
+background-color: initial;
+border: initial;
+}
+user agent stylesheetinput[type="hidden"] {
+display: none;
+}
+user agent stylesheetinput, input[type="password"], input[type="search"] {
+-webkit-appearance: textfield;
+padding: 1px;
+background-color: white;
+border: 2px inset;
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+-webkit-rtl-ordering: logical;
+-webkit-user-select: text;
+cursor: auto;
+}
+
+input[type="hidden"] {
+display: none;
+}
+user agent stylesheetinput, input[type="password"], input[type="search"] {
+-webkit-appearance: textfield;
+padding: 1px;
+background-color: white;
+border: 2px inset;
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+-webkit-rtl-ordering: logical;
+-webkit-user-select: text;
+cursor: auto;
+}
+
+input, textarea, keygen, select, button {
+margin: 0em;
+font: -webkit-small-control;
+color: initial;
+letter-spacing: normal;
+word-spacing: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+text-align: start;
+}
+
+.storerow table {
+margin: 0 auto;
+}
+
+table {
+max-width: 100%;
+background-color: transparent;
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+table {
+max-width: 100%;
+background-color: transparent;
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+label, input, button, select, textarea {
+font-size: 14px;
+font-weight: normal;
+line-height: 20px;
+}
+
+elect, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+outline: none;
+}
+
+select {
+width: 220px;
+border: 1px solid #ccc;
+background-color: #fff;
+}
+
+select, input[type="file"] {
+height: 30px;
+line-height: 30px;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+display: inline-block;
+padding: 4px 6px;
+margin-bottom: 10px;
+font-size: 14px;
+line-height: 20px;
+color: #555;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+vertical-align: middle;
+}
+
+input, button, select, textarea {
+font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+input[type="file"], input[type="image"], input[type="submit"], input[type="reset"], input[type="button"], input[type="radio"], input[type="checkbox"] {
+width: auto;
+}
+
+.buynow {
+opacity: 1;
+margin: 0 auto;
+margin-top: 10px;
+margin-bottom: 20px;
+display: block;
+-webkit-transition: all 0.2s ease-in-out 0;
+-moz-transition: all 0.2s ease-in-out 0;
+-o-transition: all 0.2s ease-in-out 0;
+transition: all 0.2s ease-in-out 0;
+}
+
+.buynow:hover {
+opacity: 0.8;
+
+}
+
+.store tbody{
+	font-size: 14px;
+	text-align: center;
+}
+
+form input[type="text"], form input[type="email"], form input[type="password"], form textarea {
+border-radius: 2px;
+text-shadow: none;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+outline: none;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+display: inline-block;
+padding: 4px 6px;
+margin-bottom: 10px;
+font-size: 14px;
+line-height: 20px;
+color: #555;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+vertical-align: middle;
+}
+
+.store li{
+	height: 100%;
+}
+
+input, textarea, .uneditable-input {
+width: 220px;
+}
+
+.storerow li>a {
+text-decoration: none;
+background-color: transparent !important;
+padding: 0;
+margin: 0;
+white-space: nowrap;
+line-height: 14px;
+}
+
+
+.detem {
+height: auto;
+width: auto;
+font-size: 12px;
+color: white;
+background-color: transparent;
+padding: 5px !important;
+border: none !important;
+position: relative;
+margin: 0 auto;
+-webkit-transition: all 0.8s ease-in-out 0;
+-moz-transition: all 0.8s ease-in-out 0;
+-o-transition: all 0.8s ease-in-out 0;
+transition: all 0.8s ease-in-out 0;
+}
+
+.greenco .detem {
+height: auto;
+width: auto;
+font-size: 12px;
+color: white;
+background-color: transparent;
+padding: 5px !important;
+border: none !important;
+position: relative;
+margin: 0 auto;
+-webkit-transition: all 0.2s ease-in-out 0;
+-moz-transition: all 0.2s ease-in-out 0;
+-o-transition: all 0.2s ease-in-out 0;
+transition: all 0.2s ease-in-out 0;
+}
+
+.greenco .detem:hover {
+background-color: #f4f4f4;
+-webkit-transition: all 0.2s ease-in-out 0;
+-moz-transition: all 0.2s ease-in-out 0;
+-o-transition: all 0.2s ease-in-out 0;
+transition: all 0.2s ease-in-out 0;
+}
+
+element.style {
+}
+everestmg.com/media="screen"
+body#welcome_index #headline p {
+font-size: 30px;
+color: white;
+}
+.greenco .detem:hover p {
+color: #32e6ca !important;
+}
+.detem p {
+font-size: 12px !important;
+color: white;
+margin: 0;
+text-align: center;
+font-weight: 300;
+-webkit-transition: all 0.8s ease-in-out 0;
+-moz-transition: all 0.8s ease-in-out 0;
+-o-transition: all 0.8s ease-in-out 0;
+transition: all 0.8s ease-in-out 0;
+}
+
+
+.greenco .detem:hover p {
+color: rgba(66,227,168,1) !important;
+}
+
+.detpush {
+margin-top: 52px !important;
+background-color: rgba(33, 143, 70, 0);
+}
+
+.redco .detem:hover {
+background-color: #f4f4f4;
+-webkit-transition: all 0.2s ease-in-out 0;
+-moz-transition: all 0.2s ease-in-out 0;
+-o-transition: all 0.2s ease-in-out 0;
+transition: all 0.2s ease-in-out 0;
+}
+
+.redco .detem:hover p {
+color: rgba(215,70,59,1) !important;
+}
+
+.blueco .detem {
+height: auto;
+width: auto;
+font-size: 12px;
+color: white;
+background-color: transparent;
+padding: 5px !important;
+border: none !important;
+position: relative;
+margin: 0 auto;
+-webkit-transition: all 0.2s ease-in-out 0;
+-moz-transition: all 0.2s ease-in-out 0;
+-o-transition: all 0.2s ease-in-out 0;
+transition: all 0.2s ease-in-out 0;
+}
+
+.blueco .detem:hover {
+background-color: #f4f4f4;
+-webkit-transition: all 0.2s ease-in-out 0;
+-moz-transition: all 0.2s ease-in-out 0;
+-o-transition: all 0.2s ease-in-out 0;
+transition: all 0.2s ease-in-out 0;
+}
+
+.blueco .detem:hover p {
+color: #00a8db !important;
+}
+
+.storebtns{
+	background-color: white;
+	border-radius: 2px;
+	height: auto;
+	width: 545px;
+	height: 397px;
+	position: relative;
+	float: left;
+}
+
+.submsg{
+	height: 60px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-family: 'alternate-gothic-no-1-d','proxima-nova';
+	color: black;
+	display: block;
+	width: 300px;
+	margin: 60px auto;
+	text-align: center;
+}
+
+.subbtn{
+	height: 89px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-family: 'alternate-gothic-no-1-d','proxima-nova';
+	color: white;
+	display: block;
+	width: 513px;
+	margin: 10px auto;
+	margin-top: 0px;
+}
+
 /* ===========================
    ======= MAIL ============== 
    =========================== */
@@ -132,6 +674,7 @@ tc4 = white fonts
 	text-align:center;
 
 }
+
 
 
 /* ===========================
