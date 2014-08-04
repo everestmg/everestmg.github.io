@@ -1,3 +1,4 @@
+
 <html>
 <head>
 	<title>1WD HTML5 theme</title>
@@ -15,14 +16,15 @@
             <div class="navbody">
                 <div class="navleft">
                     <div class="navlogo">
+                    	<img src="img/logo.png">
                     </div>
                 </div>
                 <div class="navright">
                     <ul>
-                        <li><a href="#" class="trs">Home</a></li>
-                        <li><a href="#" class="trs">About</a></li>
+                        <li><a href="#home" class="scrollo trs">Home</a></li>
+                        <li><a href="#about" class="scrollo trs">About</a></li>
                         <li><a href="#" class="trs">Services</a></li>
-                        <li><a href="#" class="trs">Pricing</a></li>
+                        <li><a href="#pricing" class="scrollo trs">Pricing</a></li>
                         <li><a href="#" class="trs">Contact</a></li>
                     </ul>
                 </div>
@@ -39,7 +41,7 @@
 
 
 
-<div class="store tc3">
+<div class="store tc3"><a id="home" class="anchfix"></a>
 	<div class="storeborder">
 		<div class="storerow">
 			<div class="scbox">
@@ -142,10 +144,17 @@
 		</div>
 		<div class="storerow nomarg">
 			<div class="storebtns">
-				<a href="#" class="submsg">Want free downloads?Click here to joing mailing list
+				<a href="#" class="submsg">Want free downloads? Click here to joing mailing list
 				</a>
+				<a href="#" class="servicemsg">VIEW SERVICES: MIXING / MASTERING / GRAPHICS
+				</a>
+				<a href="#" class="mobilemsg">Enter mobile store
+				</a>
+
+
 			</div>
 			<div class="mfsbox">
+				<object type="application/x-shockwave-flash" height="398" width="525" data="http://www.myflashstore.net/widgets/flash/bubblestore.swf?user_id=50995" allowscriptaccess="never" allownetworking="internal"><param name="allowScriptAccess" value="never"><param name="allowNetworking" value="internal"><param name="movie" value="http://www.myflashstore.net/widgets/flash/bubblestore.swf?user_id=50995"><param name="menu" value="false"><param name="wmode" value="transparent"><param name="allowFullScreen" value="true"><param name="flashvars" value="playbg=3ec09f40ed25b11c0cf57a383e8c932f.jpg&amp;pltrans=100&amp;autoplay=0&amp;salestracking=EverestMG+Soundclick&amp;"></object>
 			</div>
 		</div>
 	</div>
@@ -162,13 +171,20 @@
 		<div class="mailtext tc4">
 		Get free downloads, exclusive updates and more!
 		</div>
+		<div class="mailsec">
+			<div class="mailfields">
+				<input type="email" value="" name="EMAIL" class="required email subfield" id="mce-EMAIL" placeholder="Email">
+				<input type="name" value="" name="name" class="required email subfield" id="mce-EMAIL" placeholder="Name">
+			</div>
+			<a href="#" class="subbtn">Subscribe</a>
+		</div>
 	</div>
 </div>
 
 
 
 
-<div class="license tc3">
+<div class="license tc3"><a id="pricing" class="anchfix"></a>
 	<div class="licensetitle tc2">
 	Pricing & Licensing
 	</div>
@@ -274,7 +290,7 @@
 
 
 
-<div class="about tc3">
+<div class="about tc3"><a id="about" class="anchfix"></a>
 	<div class="abouttitle tc2">
 	About
 	</div>
@@ -299,6 +315,9 @@
 	</div>
 </div>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/scrollTo.js"></script>
 
 
 </body>

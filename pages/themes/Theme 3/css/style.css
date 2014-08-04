@@ -64,6 +64,12 @@ a.trs:hover{
     font-style: normal;
 	}
 
+.anchfix{
+	top:-64px;
+	display: block;
+	position: relative;
+	visibility: hidden;
+}
 
 .tc1{
 	background-color: #00c2a9; 
@@ -144,6 +150,12 @@ tc4 = white fonts
 .nav ul li a:hover{
     background-color: white;
     color: #00c2a9;
+
+}
+
+.navlogo img{
+	height: 54px;
+	margin: 6px auto;
 }
 
 /* ===========================
@@ -390,7 +402,7 @@ font-weight: normal;
 line-height: 20px;
 }
 
-elect, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
 outline: none;
 }
 
@@ -616,22 +628,43 @@ color: #00a8db !important;
 	font-size: 24px;
 	font-family: 'alternate-gothic-no-1-d','proxima-nova';
 	color: black;
-	display: block;
 	width: 300px;
-	margin: 60px auto;
+	margin: 50px auto;
+}
+
+.storebtns a{
+	text-transform: uppercase;
+	font-size: 24px;
+	width: 513px;
+	height: 89px;
+	line-height: 89px;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
+	display: block;
+	font-family: 'alternate-gothic-no-1-d','proxima-nova';
 }
 
 .subbtn{
-	height: 89px;
-	text-transform: uppercase;
-	font-size: 24px;
-	font-family: 'alternate-gothic-no-1-d','proxima-nova';
-	color: white;
 	display: block;
-	width: 513px;
 	margin: 10px auto;
 	margin-top: 0px;
+	color: black;
+}
+
+.servicemsg{
+	background-color: #32e6c9;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.mobilemsg{
+	background-color: #01a8dc;
+	color: white;
+}
+
+.mobilemsg:hover{
+	background-color: #0A94BE;
 }
 
 /* ===========================
@@ -675,12 +708,81 @@ color: #00a8db !important;
 
 }
 
+.mailsec{
+	width: 488px;
+	height: auto;
+	margin: 0 auto;
+	display: table;
+	margin-top: 20px;
+}
+
+.mailfields{
+	float: left;
+	position: relative;
+	width: 383px;
+	margin-right: 5px;
+	height: 100px;
+}
+
+.subfield{
+	width: 100%;
+	float: left;
+	position: relative;
+	margin-bottom: 10px;
+	height: 45px;
+	border: none;
+	border-radius: 2px;
+	padding: 5px;
+
+}
+
+.subbtn{
+	float: left;
+	position: relative;
+	background-color: #01a8dc;
+	height: 20px;
+	width: 100px;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	line-height: 20px;
+	text-align: center;
+	display: block;
+	border-radius: 2px;
+}
+
+.subbtn:hover{
+	background-color: #0A94BE;
+}
+
+@media(max-width: 488px){
+.mailsec{
+	width: 90%;
+}
+
+.mailfields{
+	width: 100%
+}
+
+.subbtn{
+	height: 20px;
+	width: 100%;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	line-height: 20px;
+	text-align: center;
+	display: block;
+	border-radius: none;
+	margin-top: 10px;
+}
+
+}
 
 
 /* ===========================
    ======= LICENSE ===========
    =========================== */
-
 .license{
 	width:100%;
 	height:auto;
@@ -906,6 +1008,50 @@ color: #00a8db !important;
 	border-bottom:1px solid #00c2a9;
 }
 
+.licenselist1:hover{
+	height: 448px;
+	background-color: #00c2a9;
+	border: none;
+	color: white;
+	border-radius: 3px;
+	margin-top: 0px;
+}
+
+.licenselist1:hover .licensecol_2 {
+background-color: transparent;
+padding-top: 10px;
+padding-bottom: 10px;
+border-top: 1px solid #00c2a9;
+border-bottom: 1px solid #00c2a9;
+}
+
+ .licensecol_4 {
+display: block;
+width: 100%;
+background-color: transparent;
+padding-top: 21px;
+border-top: none;
+}
+
+.licenselist1:hover .licensecol_4_1 {
+width: 50%;
+height: 44px;
+position: relative;
+background-color: white;
+border-radius: 3px;
+-moz-border-radius: 3px;
+margin: 0 auto;
+text-align: center;
+color: #00c2a9;
+}
+
+.licenselist1:hover .licensecol_3 {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+
+
 }
 
 @media(max-width: 1129px){
@@ -927,6 +1073,8 @@ color: #00a8db !important;
 	border-right:1px solid #00c2a9;
 }
 }
+
+
 
 
 
@@ -970,8 +1118,8 @@ color: #00a8db !important;
 
 .qoutetext{
 	font-family: 'proximanova-light', sans-serif;;
-	font-size: 50px;
-	font-height:10px;
+	font-size: 30px;
+	line-height:100px;
 	text-align: center;
 }
 
