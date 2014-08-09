@@ -522,7 +522,7 @@ margin: 0;
     .greybox{
 	height: 100%;
 	width:100%;
-	background-color: rgba(52,52,52,0.9);
+	background-color: rgba(52,52,52,0); /*.09*/
 }
     
 }
@@ -1287,6 +1287,9 @@ li{
     
 }
 
+.butfix{
+	line-height: 52px !important;
+}
 
 img{
     max-width: none !important;
