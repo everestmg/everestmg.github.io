@@ -1,0 +1,126 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link rel="stylesheet" href="//www.myflashstore.net/widgets/html5/_css/general.css"/>
+<link rel="stylesheet" href="//www.myflashstore.net/widgets/html5/_css/themes/eclipse.css"/>
+<link rel="stylesheet" href="//www.myflashstore.net/widgets/html5/_css/tablet.css" media="screen and (min-width: 750px)"/>
+<link rel="stylesheet" href="//www.myflashstore.net/widgets/html5/_css/mobile.css" media="screen and (max-width: 549px)"/>
+<!--[if gte IE]>
+<link rel="stylesheet" href="//www.myflashstore.net/widgets/html5/_css/ie.css" />
+<link rel="stylesheet" href="//www.myflashstore.net/widgets/html5/_css/themes/eclipse-ie.css" />
+<![endif]-->
+<link rel="stylesheet" href="//www.myflashstore.net/widgets/html5/_css/html5-player-ui/jquery-ui-1.9.2.custom.min.css"/>
+<script type="text/javascript">
+var uid = 50995; var DOMAIN = "//www.myflashstore.net/"; var FBAID = 79482449955;var salestracking = "Dopebeats Site";var enableShareButton = true;</script>
+ 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+<script src="//www.myflashstore.net/widgets/html5/_js/jquery.client.min.js"></script>
+<script src="//www.myflashstore.net/widgets/html5/_js/jquery.jplayer.min.js"></script>
+<script src="//www.myflashstore.net/widgets/html5/_js/jquery.ui.touch-punch.min.js"></script>
+<script src="//www.myflashstore.net/widgets/html5/_js/cart.item.min.js"></script>
+<script src="//www.myflashstore.net/widgets/html5/_js/cart.min.js"></script>
+<script src="//www.myflashstore.net/widgets/html5/_js/playlist.min.js"></script>
+<script src="//www.myflashstore.net/widgets/html5/_js/main.min.js"></script>
+</head>
+<body>
+<div id="player-wrapper">
+<div id="player-header"></div>
+<div id="right-panel"></div>
+<div id="player-body">
+<div class="playlist" id="playlist">
+</div>
+</div>
+<div id="player-footer">
+<div id="jp-track-player" class="jp-jplayer"></div>
+<div id="jp-voicetag-player" class="jp-jplayer"></div>
+<div id="jp_container_1" class="jp-audio">
+<div class="jp-type-single">
+<div class="jp-gui jp-interface">
+<div class="jp-control-buttons">
+<a href="javascript:;" class="jp-previous" tabindex="1">skip forward</a>
+<a href="javascript:;" class="jp-play" tabindex="1">play</a>
+<a href="javascript:;" class="jp-pause" tabindex="1">pause</a>
+<a href="javascript:;" class="jp-next" tabindex="1">skip back</a>
+</div>
+<div class="jp-current-time"></div>
+<div class="jp-progress">
+<div class="jp-seek-bar">
+<div class="jp-play-bar"></div>
+</div>
+</div>
+<div class="jp-duration"></div>
+<div class="jp-time-holder"> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="left-panel">
+<h1>Options Panel</h1>
+<div id="close-panel-button" class="close-panel-button">X</div>
+<div id="offers-button" class="panel-button">Special Offers</div>
+<div id="add-coupon-button" class="panel-button">Add Coupon</div>
+<br/><br/>
+<h1>Search Options</h1>
+<div id="sort-options">
+<h3>Genre</h3>
+<div id="genre-sort-list"></div>
+<h3>Licenses</h3>
+<div id="licenses-sort-list"></div>
+<h3>Price</h3>
+<div>
+<p>Please choose a price range</p>
+<p id="price-slider-range"></p>
+<div id="price-slider"></div>
+</div>
+<h3>Date Added</h3>
+<div>
+<label class="custom-radio-label">
+<input name="date-added-select" type="radio" id="date-added-select_3" value="0" checked="checked"/>
+All Time</label>
+<label class="custom-radio-label">
+<input type="radio" name="date-added-select" value="1" id="date-added-select_0"/>
+Today</label>
+<label class="custom-radio-label">
+<input type="radio" name="date-added-select" value="7" id="date-added-select_1"/>
+Last 7 Days</label>
+<label class="custom-radio-label">
+<input type="radio" name="date-added-select" value="30" id="date-added-select_2"/>
+Last 30 Days</label>
+</div>
+<h3>Sort By</h3>
+<div>
+<label class="custom-radio-label">
+<input name="sort-by-options" type="radio" id="sort-by-options_0" value="default" checked="checked"/>
+Default</label>
+<label class="custom-radio-label">
+<input type="radio" name="sort-by-options" value="latest" id="sort-by-options_1"/>
+Latest</label>
+<label class="custom-radio-label">
+<input type="radio" name="sort-by-options" value="oldest" id="sort-by-options_2"/>
+Oldest</label>
+<label class="custom-radio-label">
+<input type="radio" name="sort-by-options" value="played" id="sort-by-options_3"/>
+Most Played</label>
+</div>
+</div>
+<div id="reset-search" class="panel-button">Reset Search</div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-6887160-5', 'myflashstore.net');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
