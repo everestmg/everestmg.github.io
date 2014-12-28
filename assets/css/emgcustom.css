@@ -1,0 +1,94 @@
+body{
+	background-image: url(../img/everest_bg.jpg);
+	background-attachment: fixed;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.bg2{
+	height: auto;
+	width:100%;
+	display: block;
+	/*background-color: rgba(0,0,0,0.5);*/
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+}
+
+#head{
+	margin: 75px auto;
+	width: 300px;
+
+}
+
+.body{
+	height: auto;
+	width: auto;
+	margin: 0 auto;
+}
+
+img{
+	max-width: 100%;
+}
+
+.emgbtn{
+	height: auto;
+	background: none;
+
+}
+
+.emgbtn img{
+	display: block;
+	margin: 0 auto;
+}
+
+.row{
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+#emgprogram{
+}
+
+/*--------------------------------MIN WIDTH 992px---------------------*/
+
+@media(min-width: 992px){
+
+
+/*.emgbtn{
+	width: 255px !important;
+	margin-bottom: 15px;
+
+
+
+.ebl{
+	margin-left: 15px;
+}
+
+*/
+
+}
+
+
+
+/*--------------------------------MAX WIDTH 992px---------------------*/
+
+@media(max-width: 992px){
+
+
+.emgbtn{
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+
+}
+
+.body{
+	width: 100%;
+}
+
+}
