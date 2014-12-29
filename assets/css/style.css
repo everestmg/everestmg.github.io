@@ -73,7 +73,7 @@ z-index:99999;
   -o-transition: all 0.2s ease-in-out 0;
   transition: all 0.2s ease-in-out 0;
 }
-
+/*
 yh{
   display: none;
 }
@@ -84,7 +84,7 @@ yh{
 .gsp:hover nh{
   display: none;
 }
-
+*/
 .emgtitle{
   margin-top: 25px;
 }
