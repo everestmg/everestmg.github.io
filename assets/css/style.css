@@ -915,6 +915,15 @@ MEDIA QUERIES
   }
 }
 
+.emgtitle{
+  margin-top: 25px;
+}
+
+.emgtitle img{
+  max-width: 80%;
+}
+
+
 
 
 @media screen and (max-width: 900px) {  
