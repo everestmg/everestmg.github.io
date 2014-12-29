@@ -74,14 +74,14 @@ z-index:99999;
   transition: all 0.2s ease-in-out 0;
 }
 
-.yh{
+yh{
   display: none;
 }
 
-.gsp:hover .yh{
+.gsp:hover yh{
   display: block;
 }
-.gsp:hover .nh{
+.gsp:hover nh{
   display: none;
 }
 
