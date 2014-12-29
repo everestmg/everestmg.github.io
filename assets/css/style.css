@@ -75,14 +75,20 @@ z-index:99999;
 }
 
 yh{
-  display: none;
+  opacity: 0;
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -138px;
+  width: 278px;
+  margin-top: -18px;
 }
 
-.thov:hover yh{
-  display: block;
+.gsp:hover yh{
+  opacity: 1;
 }
-.thov:hover nh{
-  display: none;
+.gsp:hover nh{
+  opacity: 0;
 }
 
 .emgtitle{
