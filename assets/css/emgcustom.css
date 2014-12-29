@@ -38,12 +38,8 @@ img{
 .emgbtn{
 	height: auto;
 	background: none;
+	padding: 0 auto;
 
-}
-
-.emgbtn img{
-	display: block;
-	margin: 0 auto;
 }
 
 .row{
@@ -83,7 +79,7 @@ img{
 .emgbtn{
 	width: 90%;
 	margin: 0 auto;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 
 }
 
