@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>Recent Purchases Input Form</title>
+</head>
+<body>
+  <style>
+    form.fi-nl-sub-form label { display:block;}
+    form.fi-nl-sub-form label > span { 
+      display: inline-block;
+      width:120px;
+    }
+    form.fi-nl-sub-form input[type=submit] {
+      margin-top:10px
+    }
+  </style>
+  <form action="https://app.flashissue.comundefined" method="POST" class="fi-nl-sub-form">
+    <label for="fi-mail"><span>E-Mail: </span><input type="text" name="email" id="fi-email"></label>
+    <label for="fi-name"><span>Name (Optional): </span><input type="text" name="name" id="fi-name"></label>
+    <input type="submit">
+  </form>
+</body>
+</html>
