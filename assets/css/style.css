@@ -975,7 +975,7 @@ MEDIA QUERIES
 
 @media screen and (max-height: 650px) {    
    .bonjour-main {
-    bottom: 8%;
+    top: -10%;
    }
  }
 
