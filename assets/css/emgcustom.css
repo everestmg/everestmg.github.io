@@ -1,10 +1,11 @@
-body{
+/*body{
 	background-image: url(../img/everest_bg.jpg);
 	background-attachment: fixed;
 	margin: 0px;
 	padding: 0px;
+	height: 2000px;
 
-}
+}*/
 
 .bg2{
 	height: auto;
@@ -42,12 +43,58 @@ img{
 
 }
 
+input#emailtext{
+	box-sizing:border-box;
+}
+
 .row{
 	margin: 0px !important;
 	padding: 0px !important;
 }
 
 #emgprogram{
+}
+
+#teambody{
+	background-image: url(../img/greytexture.jpg);
+}
+
+#chasecol, #trillcol{
+	min-height: 800px;
+}
+
+#chasecol{
+}
+
+#trillcol{
+}
+
+#emailtext{
+	background-color: transparent;
+  border: 1px solid white;
+  height: 40px;
+  width: 400px;
+  color: rgb(234, 234, 234);
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px;
+}
+
+#WFItem14672705{
+	opacity: 1;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+
+.wf-piece{
+  float: left;
+  width: 100%;
+  max-width: 400px;
+}
+
+#wf-sort-id{
+	padding: 0;
 }
 
 /*--------------------------------MIN WIDTH 992px---------------------*/
@@ -87,4 +134,24 @@ img{
 	width: 100%;
 }
 
+#esubmit{
+  width: 100% !important;
+  margin-top: 8px;
 }
+
+.wf-piece{
+  width: 100%;
+}
+
+#WFItem14672705{
+	padding: 0 5%;
+}
+
+.wf-piece{
+  width: 100%;
+}
+
+}
+
+
+

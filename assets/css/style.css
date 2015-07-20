@@ -195,6 +195,16 @@ FEATURE CONTENT
     opacity: 1.00;
 }
 
+.bonjour-main li:nth-child(5) {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1.050em;
+  color: #fff;
+  letter-spacing: 0.1em;
+  margin-top: 50px;
+  font-size: 12px
+}
+
 .bonjour-main a {
     text-decoration: none;
     color: #fff;
